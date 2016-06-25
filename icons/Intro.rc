@@ -1,0 +1,3 @@
+; Welcome text
+INTRO_TEXT RCDATA ../ltsintro.rtf
+

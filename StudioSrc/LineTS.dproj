@@ -1,0 +1,198 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{5e98abe8-4a90-498d-ba1c-3fd5fe7f96aa}</ProjectGuid>
+			<MainSource>LineTS.dpr</MainSource>
+			<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+			<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+			<DCC_DependencyCheckOutputName>..\LineTS.exe</DCC_DependencyCheckOutputName>
+			<ProjectVersion>12.0</ProjectVersion>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<BRCC_IncludePath>..\SynGdiPlus;$(BRCC_IncludePath)</BRCC_IncludePath>
+			<DCC_UnitSearchPath>../FastMM;/SynEditDlg;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_UsePackage>vclx;vcl;vclimg;dbrtl;Rave77VCL;bdertl;rtl;vclactnband;xmlrtl;vcldb;vcldbx;vcltouch;dsnap;dsnapcon;TeeUI;Tee;TeeDB;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DataSnapServer;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;JclDeveloperTools;Jcl;JclVcl;JclContainers;JvCore;JvSystem;JvStdCtrls;JvAppFrm;JvBands;JvDB;JvDlgs;JvBDE;JvControls;JvCmp;JvCrypt;JvCustom;JvDocking;JvDotNetCtrls;JvGlobus;JvHMI;JvJans;JvManagedThreads;JvMM;JvNet;JvPageComps;JvPascalInterpreter;JvPluginSystem;JvPrintPreview;JvRuntimeDesign;JvTimeFramework;JvWizards;JvXPCtrls;AbbreviaVCL;DCPdelphi2010;NiceGridD7;NiceSideBarD7;SynEdit_R2010;VirtualTreesR</DCC_UsePackage>
+			<DCC_DependencyCheckOutputName>LineTS.exe</DCC_DependencyCheckOutputName>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Description>SodaPoppers Release Build</DCC_Description>
+			<DCC_MapFile>3</DCC_MapFile>
+			<DCC_DependencyCheckOutputName>..\LineTS.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_ExeOutput>../</DCC_ExeOutput>
+			<DCC_DcuOutput>../dcu</DCC_DcuOutput>
+			<DCC_ObjOutput>../dcu</DCC_ObjOutput>
+			<DCC_HppOutput>../dcu</DCC_HppOutput>
+			<DCC_UnitSearchPath>../ScaleMM2;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_ResourcePath>../ScaleMM2;$(DCC_ResourcePath)</DCC_ResourcePath>
+			<DCC_ObjPath>../ScaleMM2;$(DCC_ObjPath)</DCC_ObjPath>
+			<DCC_IncludePath>../ScaleMM2;$(DCC_IncludePath)</DCC_IncludePath>
+			<DCC_Define>RELEASE;madExcept;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<VerInfo_Build>528</VerInfo_Build>
+			<VerInfo_Keys>LastCompiledTime=2016/06/26 02:40:11;FileVersion=0.0.0.528</VerInfo_Keys>
+			<DCC_Description>SodaPoppers Debug Build</DCC_Description>
+			<DCC_MapFile>3</DCC_MapFile>
+			<ILINK_MapFileType>DetailedSegments</ILINK_MapFileType>
+			<DCC_DependencyCheckOutputName>..\LineTS.exe</DCC_DependencyCheckOutputName>
+			<Version>7.0</Version>
+			<DCC_ExeOutput>../</DCC_ExeOutput>
+			<DCC_DcuOutput>../dcu</DCC_DcuOutput>
+			<DCC_ObjOutput>../dcu</DCC_ObjOutput>
+			<DCC_HppOutput>../dcu</DCC_HppOutput>
+			<DCC_UnitSearchPath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_ResourcePath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_ResourcePath)</DCC_ResourcePath>
+			<DCC_ObjPath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_ObjPath)</DCC_ObjPath>
+			<DCC_IncludePath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_IncludePath)</DCC_IncludePath>
+			<DCC_Define>DEBUG;madExcept;$(DCC_Define)</DCC_Define>
+		</PropertyGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">True</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">2</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">529</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">True</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1057</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName">Khayalan Software</VersionInfoKeys>
+						<VersionInfoKeys Name="FileDescription">Line Theme Studio</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">1.2.0.529</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName">LineTS.dpr</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalCopyright">Copyright © Khayalan Software 2016</VersionInfoKeys>
+						<VersionInfoKeys Name="LegalTrademarks">LINE is trademark of Line Corporation.</VersionInfoKeys>
+						<VersionInfoKeys Name="OriginalFilename">LineTS.exe</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductName">Line Theme Studio</VersionInfoKeys>
+						<VersionInfoKeys Name="ProductVersion">1.2</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments">Coded by Faris Khowarizmi</VersionInfoKeys>
+						<VersionInfoKeys Name="LastCompiledTime">2016/06/26 02:40:11</VersionInfoKeys>
+						<VersionInfoKeys Name="SpecialBuild">SodaPoppers</VersionInfoKeys>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">LineTS.dpr</Source>
+					</Source>
+				</Delphi.Personality>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<ItemGroup>
+			<DelphiCompile Include="LineTS.dpr">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="uMain.pas">
+				<Form>frmMain</Form>
+			</DCCReference>
+			<DCCReference Include="uResc.pas">
+				<Form>fmResc</Form>
+			</DCCReference>
+			<DCCReference Include="uProp.pas">
+				<Form>fmProp</Form>
+			</DCCReference>
+			<DCCReference Include="JsonUtils.pas"/>
+			<DCCReference Include="uEdit.pas">
+				<Form>fmEdit</Form>
+			</DCCReference>
+			<DCCReference Include="SynEditDlg\dlgSearchText.pas"/>
+			<DCCReference Include="SynEditDlg\dlgReplaceText.pas"/>
+			<DCCReference Include="SynEditDlg\dlgConfirmReplace.pas"/>
+			<DCCReference Include="CustomUtils.pas"/>
+			<DCCReference Include="uAbout.pas">
+				<Form>frmAbout</Form>
+			</DCCReference>
+			<DCCReference Include="uAdbPush.pas">
+				<Form>frmAdbp</Form>
+			</DCCReference>
+			<DCCReference Include="..\AdbExec\AdbExec.pas"/>
+			<DCCReference Include="uSendOpt.pas">
+				<Form>frmAdbSend</Form>
+			</DCCReference>
+			<DCCReference Include="uFindProp.pas">
+				<Form>frmFindProp</Form>
+			</DCCReference>
+			<DCCReference Include="uConn.pas">
+				<Form>frmConn</Form>
+			</DCCReference>
+			<DCCReference Include="uPicView.pas">
+				<Form>frmPrev</Form>
+			</DCCReference>
+			<DCCReference Include="uWelcome.pas">
+				<Form>frmWelcome</Form>
+			</DCCReference>
+			<DCCReference Include="uFinfo.pas">
+				<Form>frmFinfo</Form>
+			</DCCReference>
+			<DCCReference Include="LtsType.pas"/>
+			<DCCReference Include="uCfg.pas">
+				<Form>frmCfg</Form>
+			</DCCReference>
+			<DCCReference Include="ResGraphic.pas"/>
+			<DCCReference Include="uEditApp.pas">
+				<Form>frmEditApp</Form>
+			</DCCReference>
+			<DCCReference Include="uManedit.pas">
+				<Form>fmManed</Form>
+			</DCCReference>
+			<DCCReference Include="uMedsos.pas">
+				<Form>frmMedsos</Form>
+			</DCCReference>
+			<DCCReference Include="uThemeOpenDlg.pas">
+				<Form>dlgOpenTheme</Form>
+			</DCCReference>
+			<DCCReference Include="uPicOpenDlg.pas">
+				<Form>dlgOpenPict</Form>
+			</DCCReference>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+		<PropertyGroup>
+			<PreBuildEvent><![CDATA[$(OUTPUTDIR)/BuildTools/7zr a backup.7z "$(PROJECTDIR)/*.*" -m0=BCJ2 -m1=LZMA:d25:fb255 -m2=LZMA:d19 -m3=LZMA:d19 -mb0:1 -mb0s1:2 -mb0s2:3 -mx
+move backup.7z $(OUTPUTDIR)\BuildBackup
+$(OUTPUTDIR)/BuildTools/StampBackup.bat]]></PreBuildEvent>
+			<PostBuildEvent><![CDATA[rem $(OUTPUTDIR)/BuildTools/StripReloc.exe /B $(OUTPUTDIR)\LineTS.exe TfrmMain
+rem $(OUTPUTDIR)/BuildTools/CtdCmd.exe $(OUTPUTDIR)\LineTS.exe TfrmMain
+rem $(OUTPUTDIR)/BuildTools/upx.exe --best --lzma $(OUTPUTDIR)\LineTS.exe]]></PostBuildEvent>
+		</PropertyGroup>
+	</Project>

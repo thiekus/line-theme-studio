@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="490AFD5B-B0B5-4C1D-A5BD-0E78C410536C" Name="TestProduct" Language="1033" Version="0.0.0.1" Manufacturer="WixEdit" UpgradeCode="8A021A2C-8809-4377-84C2-31F12A5DF6A4">
+        <Package Description="Test file in a Product" Comments="Simple test" InstallerVersion="200" Compressed="yes" />
+        <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles">
+                <Directory Name="fotografix" Id="FOTOGRAFIX">
+                    <Directory Id="FOTOGRAFIX_1" Name="fotografix">
+                        <Component Id="FOTOGRAFIX.EXE" DiskId="1" Guid="EEB5740A-2F76-4053-920A-794AFBC86CDA">
+                            <File Id="FOTOGRAFIX.EXE" Name="Fotografix.exe" Source="projects\LineTS\fotografix\Fotografix.exe" />
+                        </Component>
+                        <Component Id="LANG_EN.INI" DiskId="1" Guid="BA691591-391C-4BDA-9C62-B65F0CAA3473">
+                            <File Id="LANG_EN.INI" Name="lang_en.ini" Source="projects\LineTS\fotografix\lang_en.ini" />
+                        </Component>
+                        <Directory Id="BRUSHES" Name="Brushes">
+                            <Component Id="_1._DEFAULT___PENCIL.PNG" DiskId="1" Guid="BE592B96-8F81-4C9A-AE4D-946C72159329">
+                                <File Id="_1._DEFAULT___PENCIL.PNG" Name="1. Default - Pencil.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Pencil.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___ROUND_A.PNG" DiskId="1" Guid="DDEC1143-6A62-4FED-B1BB-4F73F78E466B">
+                                <File Id="_1._DEFAULT___ROUND_A.PNG" Name="1. Default - Round A.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Round A.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___ROUND_B.PNG" DiskId="1" Guid="71A0C8CD-9298-4B04-AE10-541BBAA2EAB5">
+                                <File Id="_1._DEFAULT___ROUND_B.PNG" Name="1. Default - Round B.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Round B.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___ROUND_C.PNG" DiskId="1" Guid="E57C42AB-8F45-4F8B-A76D-8F3C726300B7">
+                                <File Id="_1._DEFAULT___ROUND_C.PNG" Name="1. Default - Round C.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Round C.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___ROUND_D.PNG" DiskId="1" Guid="0462F74B-8953-41F9-9940-BD1FEA684F33">
+                                <File Id="_1._DEFAULT___ROUND_D.PNG" Name="1. Default - Round D.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Round D.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_A.PNG" DiskId="1" Guid="8FEFC676-7439-4282-8E91-EF267171CE52">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_A.PNG" Name="1. Default - Soft Round A.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round A.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_B.PNG" DiskId="1" Guid="0D55854A-3729-43EA-AD65-CD94F307EC1C">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_B.PNG" Name="1. Default - Soft Round B.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round B.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_C.PNG" DiskId="1" Guid="C35A612B-E379-4D23-AB1D-994445C0CC28">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_C.PNG" Name="1. Default - Soft Round C.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round C.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_D.PNG" DiskId="1" Guid="C0C03B46-4C8D-4FE9-9727-CA1715E07A4A">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_D.PNG" Name="1. Default - Soft Round D.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round D.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_E.PNG" DiskId="1" Guid="5A03AEE0-FDE3-457E-AE85-69923CA79392">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_E.PNG" Name="1. Default - Soft Round E.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round E.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_F.PNG" DiskId="1" Guid="7E640E5E-737C-4F06-9B35-F40BBC886D04">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_F.PNG" Name="1. Default - Soft Round F.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round F.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SOFT_ROUND_G.PNG" DiskId="1" Guid="41A486F5-3251-4E57-A089-EF09F46257D7">
+                                <File Id="_1._DEFAULT___SOFT_ROUND_G.PNG" Name="1. Default - Soft Round G.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Soft Round G.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_A.PNG" DiskId="1" Guid="8C4128D8-119F-48E4-B006-04DBB8A9FB87">
+                                <File Id="_1._DEFAULT___SQUARE_A.PNG" Name="1. Default - Square A.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square A.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_B.PNG" DiskId="1" Guid="7B5BB285-496E-4F83-9878-512CE2AFA900">
+                                <File Id="_1._DEFAULT___SQUARE_B.PNG" Name="1. Default - Square B.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square B.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_C.PNG" DiskId="1" Guid="884B2283-7195-4B80-8368-79858EF845A4">
+                                <File Id="_1._DEFAULT___SQUARE_C.PNG" Name="1. Default - Square C.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square C.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_D.PNG" DiskId="1" Guid="74790E62-0376-4FB5-9F00-67080CE13DCE">
+                                <File Id="_1._DEFAULT___SQUARE_D.PNG" Name="1. Default - Square D.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square D.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_E.PNG" DiskId="1" Guid="AAB1A4F6-5E7D-4666-BCB9-D91E00A684F9">
+                                <File Id="_1._DEFAULT___SQUARE_E.PNG" Name="1. Default - Square E.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square E.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_F.PNG" DiskId="1" Guid="C90163AE-4A16-4E78-88CE-CC5569D2A78E">
+                                <File Id="_1._DEFAULT___SQUARE_F.PNG" Name="1. Default - Square F.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square F.png" />
+                            </Component>
+                            <Component Id="_1._DEFAULT___SQUARE_G.PNG" DiskId="1" Guid="D236A601-3FA6-4E52-B0E0-45C786DFAFCA">
+                                <File Id="_1._DEFAULT___SQUARE_G.PNG" Name="1. Default - Square G.png" Source="projects\LineTS\fotografix\Brushes\1. Default - Square G.png" />
+                            </Component>
+                            <Component Id="_2._ASSORTED___BANGLE.PNG" DiskId="1" Guid="C11E9EE8-C160-4B9A-97FE-1FEEDCD41EA2">
+                                <File Id="_2._ASSORTED___BANGLE.PNG" Name="2. Assorted - Bangle.png" Source="projects\LineTS\fotografix\Brushes\2. Assorted - Bangle.png" />
+                            </Component>
+                            <Component Id="_2._ASSORTED___CIRCLE.PNG" DiskId="1" Guid="D6BA77EA-1394-43AA-8C03-E68BCB54A4A8">
+                                <File Id="_2._ASSORTED___CIRCLE.PNG" Name="2. Assorted - Circle.png" Source="projects\LineTS\fotografix\Brushes\2. Assorted - Circle.png" />
+                            </Component>
+                            <Component Id="_2._ASSORTED___CROSSHATCH.PNG" DiskId="1" Guid="609AC14F-DBD4-48E2-8702-6CA5D3705BF6">
+                                <File Id="_2._ASSORTED___CROSSHATCH.PNG" Name="2. Assorted - Crosshatch.png" Source="projects\LineTS\fotografix\Brushes\2. Assorted - Crosshatch.png" />
+                            </Component>
+                            <Component Id="_2._ASSORTED___DIAMOND.PNG" DiskId="1" Guid="26645317-2F58-4D7C-B165-8C0A07C321A9">
+                                <File Id="_2._ASSORTED___DIAMOND.PNG" Name="2. Assorted - Diamond.png" Source="projects\LineTS\fotografix\Brushes\2. Assorted - Diamond.png" />
+                            </Component>
+                            <Component Id="_2._ASSORTED___LENS_GLARE.PNG" DiskId="1" Guid="F787A4E3-D5AD-4953-BA5D-FD14FED847B0">
+                                <File Id="_2._ASSORTED___LENS_GLARE.PNG" Name="2. Assorted - Lens Glare.png" Source="projects\LineTS\fotografix\Brushes\2. Assorted - Lens Glare.png" />
+                            </Component>
+                            <Component Id="_2._ASSORTED___SPARKLE.PNG" DiskId="1" Guid="A9F0F833-9181-4033-AF3F-802A74AC2DFE">
+                                <File Id="_2._ASSORTED___SPARKLE.PNG" Name="2. Assorted - Sparkle.png" Source="projects\LineTS\fotografix\Brushes\2. Assorted - Sparkle.png" />
+                            </Component>
+                            <Component Id="README.TXT" DiskId="1" Guid="20349BF8-1BA3-4A35-8BC8-E767F0B4ED7A">
+                                <File Id="README.TXT" Name="readme.txt" Source="projects\LineTS\fotografix\Brushes\readme.txt" />
+                            </Component>
+                        </Directory>
+                        <Directory Id="HELP" Name="Help">
+                            <Component Id="ADJUSTMENTS.HTML" DiskId="1" Guid="E2E65DC4-E2DC-4773-A48E-44BAA1CF65E0">
+                                <File Id="ADJUSTMENTS.HTML" Name="adjustments.html" Source="projects\LineTS\fotografix\Help\adjustments.html" />
+                            </Component>
+                            <Component Id="CHANNELS.HTML" DiskId="1" Guid="94066A5E-E35E-4A8F-9D5E-359B961AFB87">
+                                <File Id="CHANNELS.HTML" Name="channels.html" Source="projects\LineTS\fotografix\Help\channels.html" />
+                            </Component>
+                            <Component Id="COLOUR_PALETTE.HTML" DiskId="1" Guid="BB9EC8CB-F3CB-4ADA-BEAD-A60EE0827C0D">
+                                <File Id="COLOUR_PALETTE.HTML" Name="colour_palette.html" Source="projects\LineTS\fotografix\Help\colour_palette.html" />
+                            </Component>
+                            <Component Id="CONTENTS.HTML" DiskId="1" Guid="EF88E349-9593-4222-84F3-F4F3D0C0EA65">
+                                <File Id="CONTENTS.HTML" Name="contents.html" Source="projects\LineTS\fotografix\Help\contents.html" />
+                            </Component>
+                            <Component Id="FILE_FORMATS.HTML" DiskId="1" Guid="1AE4ED0B-0DEE-4C2E-A75D-908858631B17">
+                                <File Id="FILE_FORMATS.HTML" Name="file_formats.html" Source="projects\LineTS\fotografix\Help\file_formats.html" />
+                            </Component>
+                            <Component Id="GETTING_STARTED.HTML" DiskId="1" Guid="F73AC0A5-89BC-4CD4-AA85-ECDEBF9EA77C">
+                                <File Id="GETTING_STARTED.HTML" Name="getting_started.html" Source="projects\LineTS\fotografix\Help\getting_started.html" />
+                            </Component>
+                            <Component Id="HEADER.HTML" DiskId="1" Guid="2404BB22-005E-429A-B98F-F5DDACFB40DD">
+                                <File Id="HEADER.HTML" Name="header.html" Source="projects\LineTS\fotografix\Help\header.html" />
+                            </Component>
+                            <Component Id="INDEX.HTML" DiskId="1" Guid="B3346F31-A981-4BAC-A6FD-58936434BCDC">
+                                <File Id="INDEX.HTML" Name="index.html" Source="projects\LineTS\fotografix\Help\index.html" />
+                            </Component>
+                            <Component Id="INTERFACE.HTML" DiskId="1" Guid="9D2F66EB-3E77-456E-8E16-B848D091A8EC">
+                                <File Id="INTERFACE.HTML" Name="interface.html" Source="projects\LineTS\fotografix\Help\interface.html" />
+                            </Component>
+                            <Component Id="LAYERS.HTML" DiskId="1" Guid="3C5F9E31-8294-4F3D-AB79-BE3B014123EF">
+                                <File Id="LAYERS.HTML" Name="layers.html" Source="projects\LineTS\fotografix\Help\layers.html" />
+                            </Component>
+                            <Component Id="LAYER_MASKS.HTML" DiskId="1" Guid="02BCDBDB-1CDB-4460-9795-C73E38725EE3">
+                                <File Id="LAYER_MASKS.HTML" Name="layer_masks.html" Source="projects\LineTS\fotografix\Help\layer_masks.html" />
+                            </Component>
+                            <Component Id="LOGO.PNG" DiskId="1" Guid="96B7F186-C640-4F64-8F10-632E416909DD">
+                                <File Id="LOGO.PNG" Name="logo.png" Source="projects\LineTS\fotografix\Help\logo.png" />
+                            </Component>
+                            <Component Id="MAIN_WINDOW.JPG" DiskId="1" Guid="151C26AD-335E-4D9E-8E0B-8282692B90D0">
+                                <File Id="MAIN_WINDOW.JPG" Name="main_window.jpg" Source="projects\LineTS\fotografix\Help\main_window.jpg" />
+                            </Component>
+                            <Component Id="MAIN_WINDOW.PNG" DiskId="1" Guid="7B988CDC-E808-4FAB-80FE-7E7BAA0D1D6A">
+                                <File Id="MAIN_WINDOW.PNG" Name="main_window.png" Source="projects\LineTS\fotografix\Help\main_window.png" />
+                            </Component>
+                            <Component Id="MENUS.HTML" DiskId="1" Guid="4F951F3D-D753-428A-AD0F-B678CE66D249">
+                                <File Id="MENUS.HTML" Name="menus.html" Source="projects\LineTS\fotografix\Help\menus.html" />
+                            </Component>
+                            <Component Id="SCRIPTS.HTML" DiskId="1" Guid="3F10427C-4CD2-41F7-94A3-294309628A95">
+                                <File Id="SCRIPTS.HTML" Name="scripts.html" Source="projects\LineTS\fotografix\Help\scripts.html" />
+                            </Component>
+                            <Component Id="SCRIPT_COMMANDS.HTML" DiskId="1" Guid="F8C67CA1-3AEF-42FC-81BC-038E7A119125">
+                                <File Id="SCRIPT_COMMANDS.HTML" Name="script_commands.html" Source="projects\LineTS\fotografix\Help\script_commands.html" />
+                            </Component>
+                            <Component Id="SELECTIONS.HTML" DiskId="1" Guid="58756C2F-3201-467B-B016-CB18B302C5EA">
+                                <File Id="SELECTIONS.HTML" Name="selections.html" Source="projects\LineTS\fotografix\Help\selections.html" />
+                            </Component>
+                            <Component Id="STYLES.CSS" DiskId="1" Guid="23278E33-FB43-481B-AE45-D67B825A79D3">
+                                <File Id="STYLES.CSS" Name="styles.css" Source="projects\LineTS\fotografix\Help\styles.css" />
+                            </Component>
+                            <Component Id="TEMPLATE.HTML" DiskId="1" Guid="CB352678-25D3-44BD-8843-B4DF58D47810">
+                                <File Id="TEMPLATE.HTML" Name="template.html" Source="projects\LineTS\fotografix\Help\template.html" />
+                            </Component>
+                            <Component Id="TOOLS.HTML" DiskId="1" Guid="D1B6D4A8-5698-4AC9-A1CD-453EE4546E0F">
+                                <File Id="TOOLS.HTML" Name="tools.html" Source="projects\LineTS\fotografix\Help\tools.html" />
+                            </Component>
+                            <Component Id="TOOL_BRUSH.HTML" DiskId="1" Guid="10E3795E-3D4D-4C5C-BCC8-7F8DA5F7987F">
+                                <File Id="TOOL_BRUSH.HTML" Name="tool_brush.html" Source="projects\LineTS\fotografix\Help\tool_brush.html" />
+                            </Component>
+                            <Component Id="TOOL_CLONE.HTML" DiskId="1" Guid="C58572F4-BE94-429E-89CA-78F69932E8FB">
+                                <File Id="TOOL_CLONE.HTML" Name="tool_clone.html" Source="projects\LineTS\fotografix\Help\tool_clone.html" />
+                            </Component>
+                            <Component Id="TOOL_DROPPER.HTML" DiskId="1" Guid="5A816657-AE4B-4619-A557-FE0426C43B1C">
+                                <File Id="TOOL_DROPPER.HTML" Name="tool_dropper.html" Source="projects\LineTS\fotografix\Help\tool_dropper.html" />
+                            </Component>
+                            <Component Id="TOOL_ERASER.HTML" DiskId="1" Guid="EA151F5E-4B58-48AC-8D7D-5FFAAACA0C9A">
+                                <File Id="TOOL_ERASER.HTML" Name="tool_eraser.html" Source="projects\LineTS\fotografix\Help\tool_eraser.html" />
+                            </Component>
+                            <Component Id="TOOL_FILL.HTML" DiskId="1" Guid="AF624D4A-697A-43DB-B413-EF741F4B3CE7">
+                                <File Id="TOOL_FILL.HTML" Name="tool_fill.html" Source="projects\LineTS\fotografix\Help\tool_fill.html" />
+                            </Component>
+                            <Component Id="TOOL_GRADIENT.HTML" DiskId="1" Guid="F53BA7E0-9AD3-4798-BDCE-D2996C2DF22A">
+                                <File Id="TOOL_GRADIENT.HTML" Name="tool_gradient.html" Source="projects\LineTS\fotografix\Help\tool_gradient.html" />
+                            </Component>
+                            <Component Id="TOOL_HAND.HTML" DiskId="1" Guid="6472B1BC-10E7-401F-91B5-98536C801D11">
+                                <File Id="TOOL_HAND.HTML" Name="tool_hand.html" Source="projects\LineTS\fotografix\Help\tool_hand.html" />
+                            </Component>
+                            <Component Id="TOOL_MARQUEE.HTML" DiskId="1" Guid="EC41A642-E4FD-4283-A5E0-4845AABCD6C8">
+                                <File Id="TOOL_MARQUEE.HTML" Name="tool_marquee.html" Source="projects\LineTS\fotografix\Help\tool_marquee.html" />
+                            </Component>
+                            <Component Id="TOOL_MOVE.HTML" DiskId="1" Guid="6F4D0C44-F25B-4EC5-AE58-DFCED0E2DB1A">
+                                <File Id="TOOL_MOVE.HTML" Name="tool_move.html" Source="projects\LineTS\fotografix\Help\tool_move.html" />
+                            </Component>
+                            <Component Id="TOOL_RULER.HTML" DiskId="1" Guid="4ADFD04F-A772-41F7-9170-E2DCC6399675">
+                                <File Id="TOOL_RULER.HTML" Name="tool_ruler.html" Source="projects\LineTS\fotografix\Help\tool_ruler.html" />
+                            </Component>
+                            <Component Id="TOOL_TEXT.HTML" DiskId="1" Guid="3428B1FE-5911-4D7A-A650-FD74F195D5A7">
+                                <File Id="TOOL_TEXT.HTML" Name="tool_text.html" Source="projects\LineTS\fotografix\Help\tool_text.html" />
+                            </Component>
+                            <Component Id="TOOL_TRANSFORM.HTML" DiskId="1" Guid="8DAEB9FC-A55E-4E23-B663-72F61D16C3C0">
+                                <File Id="TOOL_TRANSFORM.HTML" Name="tool_transform.html" Source="projects\LineTS\fotografix\Help\tool_transform.html" />
+                            </Component>
+                            <Component Id="TOOL_WAND.HTML" DiskId="1" Guid="ED2AB2A9-232D-41FA-BFDF-74A6A16F4CA4">
+                                <File Id="TOOL_WAND.HTML" Name="tool_wand.html" Source="projects\LineTS\fotografix\Help\tool_wand.html" />
+                            </Component>
+                            <Component Id="TOOL_ZOOM.HTML" DiskId="1" Guid="DE9F140D-509C-47CA-A473-26869565C84F">
+                                <File Id="TOOL_ZOOM.HTML" Name="tool_zoom.html" Source="projects\LineTS\fotografix\Help\tool_zoom.html" />
+                            </Component>
+                            <Component Id="TRANSLATE.HTML" DiskId="1" Guid="6F1179DE-1AE7-44FE-A031-5513B37D30F0">
+                                <File Id="TRANSLATE.HTML" Name="translate.html" Source="projects\LineTS\fotografix\Help\translate.html" />
+                            </Component>
+                            <Component Id="UNDO.HTML" DiskId="1" Guid="8B812597-5553-4A16-9D86-FA445F63FA82">
+                                <File Id="UNDO.HTML" Name="undo.html" Source="projects\LineTS\fotografix\Help\undo.html" />
+                            </Component>
+                            <Component Id="WELCOME.HTML" DiskId="1" Guid="3D3B5252-F3DB-4A66-A9FC-27717FD40B67">
+                                <File Id="WELCOME.HTML" Name="welcome.html" Source="projects\LineTS\fotografix\Help\welcome.html" />
+                            </Component>
+                            <Component Id="WHATSNEW.HTML" DiskId="1" Guid="B178971E-1AA9-46DF-8323-8DD60F9ACC79">
+                                <File Id="WHATSNEW.HTML" Name="whatsnew.html" Source="projects\LineTS\fotografix\Help\whatsnew.html" />
+                            </Component>
+                        </Directory>
+                        <Directory Id="SCRIPTS" Name="Scripts">
+                            <Component Id="README.TXT_1" DiskId="1" Guid="3DC7BBF5-0E51-41D5-B4D2-B890D51158C3">
+                                <File Id="README.TXT_1" Name="readme.txt" Source="projects\LineTS\fotografix\Scripts\readme.txt" />
+                            </Component>
+                            <Directory Id="DEFAULT_SCRIPTS" Name="Default Scripts">
+                                <Component Id="BRUSHED_METAL.FGS" DiskId="1" Guid="A9CF4188-A28E-4F7A-B727-80A922B86788">
+                                    <File Id="BRUSHED_METAL.FGS" Name="Brushed Metal.fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Brushed Metal.fgs" />
+                                </Component>
+                                <Component Id="CUTOUT__SELECTION_.FGS" DiskId="1" Guid="F6546FEC-7B8D-4890-828C-5F1DE8A21A51">
+                                    <File Id="CUTOUT__SELECTION_.FGS" Name="Cutout (selection).fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Cutout (selection).fgs" />
+                                </Component>
+                                <Component Id="RUBBER_STAMP.FGS" DiskId="1" Guid="F59926FC-D2D6-4060-941D-8550CDBA79D8">
+                                    <File Id="RUBBER_STAMP.FGS" Name="Rubber Stamp.fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Rubber Stamp.fgs" />
+                                </Component>
+                                <Component Id="SEPIA_TONE.FGS" DiskId="1" Guid="27657A4C-6001-44E8-AA21-B4A838982267">
+                                    <File Id="SEPIA_TONE.FGS" Name="Sepia Tone.fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Sepia Tone.fgs" />
+                                </Component>
+                                <Component Id="STENCIL__TEXT_.FGS" DiskId="1" Guid="932BDE2B-9579-409E-A7E6-B95E5CEC0394">
+                                    <File Id="STENCIL__TEXT_.FGS" Name="Stencil (text).fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Stencil (text).fgs" />
+                                </Component>
+                                <Component Id="VIGNETTE__SELECTION_.FGS" DiskId="1" Guid="629275EC-CD17-4DE4-97F0-99C2A14CFCFC">
+                                    <File Id="VIGNETTE__SELECTION_.FGS" Name="Vignette (selection).fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Vignette (selection).fgs" />
+                                </Component>
+                                <Component Id="VIGNETTE_EDGE.FGS" DiskId="1" Guid="AD8BFABB-773C-4532-AE9F-4E9EC414F272">
+                                    <File Id="VIGNETTE_EDGE.FGS" Name="Vignette Edge.fgs" Source="projects\LineTS\fotografix\Scripts\Default Scripts\Vignette Edge.fgs" />
+                                </Component>
+                            </Directory>
+                        </Directory>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </Directory>
+        <Feature Id="DefaultFeature" Title="Main Feature" Level="1">
+            <ComponentRef Id="FOTOGRAFIX.EXE" />
+            <ComponentRef Id="LANG_EN.INI" />
+            <ComponentRef Id="_1._DEFAULT___PENCIL.PNG" />
+            <ComponentRef Id="_1._DEFAULT___ROUND_A.PNG" />
+            <ComponentRef Id="_1._DEFAULT___ROUND_B.PNG" />
+            <ComponentRef Id="_1._DEFAULT___ROUND_C.PNG" />
+            <ComponentRef Id="_1._DEFAULT___ROUND_D.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_A.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_B.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_C.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_D.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_E.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_F.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SOFT_ROUND_G.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_A.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_B.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_C.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_D.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_E.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_F.PNG" />
+            <ComponentRef Id="_1._DEFAULT___SQUARE_G.PNG" />
+            <ComponentRef Id="_2._ASSORTED___BANGLE.PNG" />
+            <ComponentRef Id="_2._ASSORTED___CIRCLE.PNG" />
+            <ComponentRef Id="_2._ASSORTED___CROSSHATCH.PNG" />
+            <ComponentRef Id="_2._ASSORTED___DIAMOND.PNG" />
+            <ComponentRef Id="_2._ASSORTED___LENS_GLARE.PNG" />
+            <ComponentRef Id="_2._ASSORTED___SPARKLE.PNG" />
+            <ComponentRef Id="README.TXT" />
+            <ComponentRef Id="ADJUSTMENTS.HTML" />
+            <ComponentRef Id="CHANNELS.HTML" />
+            <ComponentRef Id="COLOUR_PALETTE.HTML" />
+            <ComponentRef Id="CONTENTS.HTML" />
+            <ComponentRef Id="FILE_FORMATS.HTML" />
+            <ComponentRef Id="GETTING_STARTED.HTML" />
+            <ComponentRef Id="HEADER.HTML" />
+            <ComponentRef Id="INDEX.HTML" />
+            <ComponentRef Id="INTERFACE.HTML" />
+            <ComponentRef Id="LAYERS.HTML" />
+            <ComponentRef Id="LAYER_MASKS.HTML" />
+            <ComponentRef Id="LOGO.PNG" />
+            <ComponentRef Id="MAIN_WINDOW.JPG" />
+            <ComponentRef Id="MAIN_WINDOW.PNG" />
+            <ComponentRef Id="MENUS.HTML" />
+            <ComponentRef Id="SCRIPTS.HTML" />
+            <ComponentRef Id="SCRIPT_COMMANDS.HTML" />
+            <ComponentRef Id="SELECTIONS.HTML" />
+            <ComponentRef Id="STYLES.CSS" />
+            <ComponentRef Id="TEMPLATE.HTML" />
+            <ComponentRef Id="TOOLS.HTML" />
+            <ComponentRef Id="TOOL_BRUSH.HTML" />
+            <ComponentRef Id="TOOL_CLONE.HTML" />
+            <ComponentRef Id="TOOL_DROPPER.HTML" />
+            <ComponentRef Id="TOOL_ERASER.HTML" />
+            <ComponentRef Id="TOOL_FILL.HTML" />
+            <ComponentRef Id="TOOL_GRADIENT.HTML" />
+            <ComponentRef Id="TOOL_HAND.HTML" />
+            <ComponentRef Id="TOOL_MARQUEE.HTML" />
+            <ComponentRef Id="TOOL_MOVE.HTML" />
+            <ComponentRef Id="TOOL_RULER.HTML" />
+            <ComponentRef Id="TOOL_TEXT.HTML" />
+            <ComponentRef Id="TOOL_TRANSFORM.HTML" />
+            <ComponentRef Id="TOOL_WAND.HTML" />
+            <ComponentRef Id="TOOL_ZOOM.HTML" />
+            <ComponentRef Id="TRANSLATE.HTML" />
+            <ComponentRef Id="UNDO.HTML" />
+            <ComponentRef Id="WELCOME.HTML" />
+            <ComponentRef Id="WHATSNEW.HTML" />
+            <ComponentRef Id="README.TXT_1" />
+            <ComponentRef Id="BRUSHED_METAL.FGS" />
+            <ComponentRef Id="CUTOUT__SELECTION_.FGS" />
+            <ComponentRef Id="RUBBER_STAMP.FGS" />
+            <ComponentRef Id="SEPIA_TONE.FGS" />
+            <ComponentRef Id="STENCIL__TEXT_.FGS" />
+            <ComponentRef Id="VIGNETTE__SELECTION_.FGS" />
+            <ComponentRef Id="VIGNETTE_EDGE.FGS" />
+        </Feature>
+        <UI />
+    </Product>
+</Wix>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+    <Product Id="*" Name="Line Theme Studio" Language="1057" Version="1.2.0.525" Manufacturer="Khayalan Software" UpgradeCode="69BC5BC1-6032-46DD-92D1-BC60E1BE7777">
+        <Package Description="Line Theme Studio" Comments="LineTS Setup" InstallerVersion="200" Compressed="yes" />
+        <MajorUpgrade Schedule="afterInstallInitialize" DowngradeErrorMessage="A later version of [ProductName] is already installed. Setup will now exit." AllowSameVersionUpgrades="yes" />
+        <Media Id="1" Cabinet="data.cab" EmbedCab="yes" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles">
+                <Directory Id="PRODUCTDIR" Name="Line Theme Studio">
+                    <Component Id="MainApp" DiskId="1" KeyPath="yes" Guid="e10da9ec-547c-4cf4-8fd8-415ebfcabcc6">
+                        <CreateFolder>
+                            <util:PermissionEx User="Users" GenericAll="yes" />
+                        </CreateFolder>
+                        <File Id="LINETS.EXE" Name="LineTS.exe" Source="D:\Projects\LineTS\LineTS.exe">
+                            <Shortcut Id="desktopShortcut" Directory="DesktopFolder" Name="Line Theme Studio" WorkingDirectory="INSTALLDIR" Advertise="no" Icon="DesktopIcon.exe" IconIndex="0" />
+                            <Shortcut Id="ExeShortcut" Directory="ProgramMenuDir" Name="Launch Theme Studio" Advertise="no" Icon="StartMenuIcon.exe" IconIndex="0" />
+                        </File>
+                    </Component>
+                    <Component Id="FastMMLib" Guid="464C9A53-E798-4AD3-BEB9-B53CBBE2F585">
+                        <File Id="FastMM_FullDebugMode.DLL" Name="FastMM_FullDebugMode.dll" Source="..\FastMM_FullDebugMode.dll" />
+                    </Component>
+                    <Component Id="THEMELST.INI" Guid="CC44F39E-2482-4E75-B233-E06FB08C93FC">
+                        <File Id="THEMELST.INI" Name="ThemeLst.ini" Source="..\ThemeLst.ini" />
+                    </Component>
+                    <Component Id="HELP.CHM" Guid="42625163-53C8-47E9-AE04-A2B7CD23F3CC">
+                        <File Id="HELP.CHM" Name="Help.chm" Source="..\Help.chm" />
+                    </Component>
+                    <Directory Id="ADB" Name="adb">
+                        <Component Id="ADB.EXE" DiskId="1" Guid="3F508F32-8ACD-4B98-BDB3-6EC9942E0CB7">
+                            <File Id="ADB.EXE" Name="adb.exe" Source="..\adb\adb.exe" />
+                        </Component>
+                        <Component Id="ADBWINAPI.DLL" DiskId="1" Guid="204AD723-0F1F-4A68-BE02-2EDA96906A90">
+                            <File Id="ADBWINAPI.DLL" Name="AdbWinApi.dll" Source="..\adb\AdbWinApi.dll" />
+                        </Component>
+                        <Component Id="ADBWINUSBAPI.DLL" DiskId="1" Guid="3FB47E4F-110E-40CC-9933-6EDF11CB2CF8">
+                            <File Id="ADBWINUSBAPI.DLL" Name="AdbWinUsbApi.dll" Source="..\adb\AdbWinUsbApi.dll" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="TEMPLATE" Name="Template">
+                        <Component Id="ThemeFiles" DiskId="1" Guid="A6C5F5DA-25B7-4D20-9A1E-80872272F11F">
+                            <File Id="BLACK_THEME.33" Name="black_theme.33" Source="..\Template\black_theme.33" />
+                            <File Id="BROWN_THEMEFILE.46" Name="brown_themefile.46" Source="..\Template\brown_themefile.46" />
+                            <File Id="CONY_THEMEFILE.46" Name="cony_themefile.46" Source="..\Template\cony_themefile.46" />
+                            <File Id="WHITE_THEMEFILE.41" Name="white_themefile.41" Source="..\Template\white_themefile.41" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="EXTRAS" Name="Extras">
+                        <Component Id="ADBEXEC_SOURCE.7Z" DiskId="1" Guid="028C2848-5370-4EFA-A00C-9136A3A7675D">
+                            <File Id="ADBEXEC_SOURCE.7Z" Name="AdbExec_Source.7z" Source="..\Extras\AdbExec_Source.7z" />
+                        </Component>
+                        <Component Id="NICESIDEBAR.RAR" Guid="">
+                            <File Id="NICESIDEBAR.RAR" Name="NiceSideBar.rar" Source="..\Extras\NiceSideBar.rar" />
+                        </Component>
+                    </Directory>
+                    <Directory Id="FOTOGRAFIX" Name="fotografix">
+                        <Component Id="fotografix_app" Guid="695D6C4F-E322-486B-B83A-806A5D463AD9">
+                            <CreateFolder>
+                                <util:PermissionEx User="Users" GenericAll="yes" />
+                            </CreateFolder>
+                            <File Id="FOTOGRAFIX.EXE" Name="Fotografix.exe" Source="..\fotografix\Fotografix.exe" />
+                            <File Id="LANG_EN.INI" Name="lang_en.ini" Source="..\fotografix\lang_en.ini" />
+                        </Component>
+                        <Directory Id="fg_Brushes" Name="Brushes">
+                            <Component Id="fotografix_brush" Guid="BB3BA4FA-4278-4F74-91B4-FACCED759C41">
+                                <File Id="_1._DEFAULT___PENCIL.PNG" Name="1. Default - Pencil.png" Source="..\fotografix\Brushes\1. Default - Pencil.png" />
+                                <File Id="_1._DEFAULT___ROUND_A.PNG" Name="1. Default - Round A.png" Source="..\fotografix\Brushes\1. Default - Round A.png" />
+                                <File Id="_1._DEFAULT___ROUND_B.PNG" Name="1. Default - Round B.png" Source="..\fotografix\Brushes\1. Default - Round B.png" />
+                                <File Id="_1._DEFAULT___ROUND_C.PNG" Name="1. Default - Round C.png" Source="..\fotografix\Brushes\1. Default - Round C.png" />
+                                <File Id="_1._DEFAULT___ROUND_D.PNG" Name="1. Default - Round D.png" Source="..\fotografix\Brushes\1. Default - Round D.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_A.PNG" Name="1. Default - Soft Round A.png" Source="..\fotografix\Brushes\1. Default - Soft Round A.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_B.PNG" Name="1. Default - Soft Round B.png" Source="..\fotografix\Brushes\1. Default - Soft Round B.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_C.PNG" Name="1. Default - Soft Round C.png" Source="..\fotografix\Brushes\1. Default - Soft Round C.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_D.PNG" Name="1. Default - Soft Round D.png" Source="..\fotografix\Brushes\1. Default - Soft Round D.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_E.PNG" Name="1. Default - Soft Round E.png" Source="..\fotografix\Brushes\1. Default - Soft Round E.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_F.PNG" Name="1. Default - Soft Round F.png" Source="..\fotografix\Brushes\1. Default - Soft Round F.png" />
+                                <File Id="_1._DEFAULT___SOFT_ROUND_G.PNG" Name="1. Default - Soft Round G.png" Source="..\fotografix\Brushes\1. Default - Soft Round G.png" />
+                                <File Id="_1._DEFAULT___SQUARE_A.PNG" Name="1. Default - Square A.png" Source="..\fotografix\Brushes\1. Default - Square A.png" />
+                                <File Id="_1._DEFAULT___SQUARE_B.PNG" Name="1. Default - Square B.png" Source="..\fotografix\Brushes\1. Default - Square B.png" />
+                                <File Id="_1._DEFAULT___SQUARE_C.PNG" Name="1. Default - Square C.png" Source="..\fotografix\Brushes\1. Default - Square C.png" />
+                                <File Id="_1._DEFAULT___SQUARE_D.PNG" Name="1. Default - Square D.png" Source="..\fotografix\Brushes\1. Default - Square D.png" />
+                                <File Id="_1._DEFAULT___SQUARE_E.PNG" Name="1. Default - Square E.png" Source="..\fotografix\Brushes\1. Default - Square E.png" />
+                                <File Id="_1._DEFAULT___SQUARE_F.PNG" Name="1. Default - Square F.png" Source="..\fotografix\Brushes\1. Default - Square F.png" />
+                                <File Id="_1._DEFAULT___SQUARE_G.PNG" Name="1. Default - Square G.png" Source="..\fotografix\Brushes\1. Default - Square G.png" />
+                                <File Id="_2._ASSORTED___BANGLE.PNG" Name="2. Assorted - Bangle.png" Source="..\fotografix\Brushes\2. Assorted - Bangle.png" />
+                                <File Id="_2._ASSORTED___CIRCLE.PNG" Name="2. Assorted - Circle.png" Source="..\fotografix\Brushes\2. Assorted - Circle.png" />
+                                <File Id="_2._ASSORTED___CROSSHATCH.PNG" Name="2. Assorted - Crosshatch.png" Source="..\fotografix\Brushes\2. Assorted - Crosshatch.png" />
+                                <File Id="_2._ASSORTED___DIAMOND.PNG" Name="2. Assorted - Diamond.png" Source="..\fotografix\Brushes\2. Assorted - Diamond.png" />
+                                <File Id="_2._ASSORTED___LENS_GLARE.PNG" Name="2. Assorted - Lens Glare.png" Source="..\fotografix\Brushes\2. Assorted - Lens Glare.png" />
+                                <File Id="_2._ASSORTED___SPARKLE.PNG" Name="2. Assorted - Sparkle.png" Source="..\fotografix\Brushes\2. Assorted - Sparkle.png" />
+                                <File Id="README.TXT" Name="readme.txt" Source="..\fotografix\Brushes\readme.txt" />
+                            </Component>
+                        </Directory>
+                        <Directory Id="fg_Help" Name="Help">
+                            <Component Id="fotografix_help" Guid="478943E4-DBD6-4904-BA4D-E5B1AB6BC672">
+                                <File Id="ADJUSTMENTS.HTML" Name="adjustments.html" Source="..\fotografix\Help\adjustments.html" />
+                                <File Id="CHANNELS.HTML" Name="channels.html" Source="..\fotografix\Help\channels.html" />
+                                <File Id="COLOUR_PALETTE.HTML" Name="colour_palette.html" Source="..\fotografix\Help\colour_palette.html" />
+                                <File Id="CONTENTS.HTML" Name="contents.html" Source="..\fotografix\Help\contents.html" />
+                                <File Id="FILE_FORMATS.HTML" Name="file_formats.html" Source="..\fotografix\Help\file_formats.html" />
+                                <File Id="GETTING_STARTED.HTML" Name="getting_started.html" Source="..\fotografix\Help\getting_started.html" />
+                                <File Id="HEADER.HTML" Name="header.html" Source="..\fotografix\Help\header.html" />
+                                <File Id="INDEX.HTML" Name="index.html" Source="..\fotografix\Help\index.html" />
+                                <File Id="INTERFACE.HTML" Name="interface.html" Source="..\fotografix\Help\interface.html" />
+                                <File Id="LAYER_MASKS.HTML" Name="layer_masks.html" Source="..\fotografix\Help\layer_masks.html" />
+                                <File Id="LAYERS.HTML" Name="layers.html" Source="..\fotografix\Help\layers.html" />
+                                <File Id="LOGO.PNG" Name="logo.png" Source="..\fotografix\Help\logo.png" />
+                                <File Id="MAIN_WINDOW.JPG" Name="main_window.jpg" Source="..\fotografix\Help\main_window.jpg" />
+                                <File Id="MAIN_WINDOW.PNG" Name="main_window.png" Source="..\fotografix\Help\main_window.png" />
+                                <File Id="MENUS.HTML" Name="menus.html" Source="..\fotografix\Help\menus.html" />
+                                <File Id="SCRIPT_COMMANDS.HTML" Name="script_commands.html" Source="..\fotografix\Help\script_commands.html" />
+                                <File Id="SCRIPTS.HTML" Name="scripts.html" Source="..\fotografix\Help\scripts.html" />
+                                <File Id="SELECTIONS.HTML" Name="selections.html" Source="..\fotografix\Help\selections.html" />
+                                <File Id="STYLES.CSS" Name="styles.css" Source="..\fotografix\Help\styles.css" />
+                                <File Id="TEMPLATE.HTML" Name="template.html" Source="..\fotografix\Help\template.html" />
+                                <File Id="TOOL_BRUSH.HTML" Name="tool_brush.html" Source="..\fotografix\Help\tool_brush.html" />
+                                <File Id="TOOL_CLONE.HTML" Name="tool_clone.html" Source="..\fotografix\Help\tool_clone.html" />
+                                <File Id="TOOL_DROPPER.HTML" Name="tool_dropper.html" Source="..\fotografix\Help\tool_dropper.html" />
+                                <File Id="TOOL_ERASER.HTML" Name="tool_eraser.html" Source="..\fotografix\Help\tool_eraser.html" />
+                                <File Id="TOOL_FILL.HTML" Name="tool_fill.html" Source="..\fotografix\Help\tool_fill.html" />
+                                <File Id="TOOL_GRADIENT.HTML" Name="tool_gradient.html" Source="..\fotografix\Help\tool_gradient.html" />
+                                <File Id="TOOL_HAND.HTML" Name="tool_hand.html" Source="..\fotografix\Help\tool_hand.html" />
+                                <File Id="TOOL_MARQUEE.HTML" Name="tool_marquee.html" Source="..\fotografix\Help\tool_marquee.html" />
+                                <File Id="TOOL_MOVE.HTML" Name="tool_move.html" Source="..\fotografix\Help\tool_move.html" />
+                                <File Id="TOOL_RULER.HTML" Name="tool_ruler.html" Source="..\fotografix\Help\tool_ruler.html" />
+                                <File Id="TOOL_TEXT.HTML" Name="tool_text.html" Source="..\fotografix\Help\tool_text.html" />
+                                <File Id="TOOL_TRANSFORM.HTML" Name="tool_transform.html" Source="..\fotografix\Help\tool_transform.html" />
+                                <File Id="TOOL_WAND.HTML" Name="tool_wand.html" Source="..\fotografix\Help\tool_wand.html" />
+                                <File Id="TOOL_ZOOM.HTML" Name="tool_zoom.html" Source="..\fotografix\Help\tool_zoom.html" />
+                                <File Id="TOOLS.HTML" Name="tools.html" Source="..\fotografix\Help\tools.html" />
+                                <File Id="TRANSLATE.HTML" Name="translate.html" Source="..\fotografix\Help\translate.html" />
+                                <File Id="UNDO.HTML" Name="undo.html" Source="..\fotografix\Help\undo.html" />
+                                <File Id="WELCOME.HTML" Name="welcome.html" Source="..\fotografix\Help\welcome.html" />
+                                <File Id="WHATSNEW.HTML" Name="whatsnew.html" Source="..\fotografix\Help\whatsnew.html" />
+                            </Component>
+                        </Directory>
+                        <Directory Id="fg_Scripts" Name="Scripts">
+                            <Component Id="fotografix_scriptread" Guid="2A5D7748-CCCD-497D-A2C6-176163D5497D">
+                                <File Id="README.TXT_1" Name="readme.txt" Source="..\fotografix\Scripts\readme.txt" />
+                            </Component>
+                            <Directory Id="fg_DefaultScripts" Name="Default Scripts">
+                                <Component Id="fotografix_script" Guid="EFBD9BA6-8D67-440D-A8A1-4BE58C60AAB1">
+                                    <File Id="BRUSHED_METAL.FGS" Name="Brushed Metal.fgs" Source="..\fotografix\Scripts\Default Scripts\Brushed Metal.fgs" />
+                                    <File Id="CUTOUT__SELECTION_.FGS" Name="Cutout (selection).fgs" Source="..\fotografix\Scripts\Default Scripts\Cutout (selection).fgs" />
+                                    <File Id="RUBBER_STAMP.FGS" Name="Rubber Stamp.fgs" Source="..\fotografix\Scripts\Default Scripts\Rubber Stamp.fgs" />
+                                    <File Id="SEPIA_TONE.FGS" Name="Sepia Tone.fgs" Source="..\fotografix\Scripts\Default Scripts\Sepia Tone.fgs" />
+                                    <File Id="STENCIL__TEXT_.FGS" Name="Stencil (text).fgs" Source="..\fotografix\Scripts\Default Scripts\Stencil (text).fgs" />
+                                    <File Id="VIGNETTE__SELECTION_.FGS" Name="Vignette (selection).fgs" Source="..\fotografix\Scripts\Default Scripts\Vignette (selection).fgs" />
+                                    <File Id="VIGNETTE_EDGE.FGS" Name="Vignette Edge.fgs" Source="..\fotografix\Scripts\Default Scripts\Vignette Edge.fgs" />
+                                </Component>
+                            </Directory>
+                        </Directory>
+                    </Directory>
+                </Directory>
+                <Directory Id="DesktopFolder" />
+                <Directory Id="ProgramMenuFolder">
+                    <Directory Id="ProgramMenuDir" Name="Line Theme Studio">
+                        <Component Id="StartMenuShortcuts" Guid="CCF9B21B-FDEE-43CE-82CB-1E2001287DF9">
+                            <RemoveFolder Id="ProgramMenuDir" On="uninstall" />
+                            <RegistryValue Root="HKCU" Key="Software\[Manufacturer]\[ProductName]" Type="string" Value="" />
+                            <Shortcut Id="UninstallProduct" Name="Uninstall" Description="Uninstalls Line Theme Studio" Target="[System64Folder]msiexec.exe" Arguments="/x [ProductCode]" />
+                        </Component>
+                    </Directory>
+                </Directory>
+            </Directory>
+        </Directory>
+        <Feature Id="DefaultFeature" Title="Main Feature" Level="1">
+            <ComponentRef Id="MainApp" />
+            <ComponentRef Id="StartMenuShortcuts" />
+            <ComponentRef Id="ADB.EXE" />
+            <ComponentRef Id="ADBWINAPI.DLL" />
+            <ComponentRef Id="ADBWINUSBAPI.DLL" />
+            <ComponentRef Id="FastMMLib" />
+            <ComponentRef Id="ADBEXEC_SOURCE.7Z" />
+            <ComponentRef Id="THEMELST.INI" />
+            <ComponentRef Id="NICESIDEBAR.RAR" />
+            <ComponentRef Id="HELP.CHM" />
+            <ComponentRef Id="fotografix_app" />
+            <ComponentRef Id="fotografix_brush" />
+            <ComponentRef Id="fotografix_help" />
+            <ComponentRef Id="fotografix_scriptread" />
+            <ComponentRef Id="fotografix_script" />
+            <ComponentRef Id="ThemeFiles" />
+        </Feature>
+        <Property Id="WIXUI_INSTALLDIR" Value="PRODUCTDIR" />
+        <UI Id="FarisModUI">
+            <UIRef Id="WixUI_InstallDir" />
+            <UIRef Id="WixUI_ErrorProgressText" />
+            <!--<Publish Dialog="WelcomeDlg" Control="Next" Event="NewDialog" Value="InstallDirDlg" Order="3">1</Publish>-->
+            <!-- skip the page on the way back too -->
+            <!--<Publish Dialog="InstallDirDlg" Control="Back" Event="NewDialog" Value="WelcomeDlg" Order="3">1</Publish>-->
+        </UI>
+        <WixVariable Id="WixUILicenseRtf" Value="../License.rtf" />
+        <WixVariable Id="WixUIBannerBmp" Value="TopImage256.bmp" />
+        <WixVariable Id="WixUIDialogBmp" Value="SideImage.bmp" />
+        <Icon Id="DesktopIcon.exe" SourceFile="mainico.ico" />
+        <Icon Id="StartMenuIcon.exe" SourceFile="mainico.ico" />
+        <UI />
+    </Product>
+</Wix>

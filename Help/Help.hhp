@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=..\Help.chm
+Contents file=HelpTOC.hhc
+Default topic=main.html
+Display compile progress=No
+Language=0x421 Indonesian (Indonesia)
+Title=Line Theme Studio Help
+
+
+[FILES]
+main.html
+quick_intro.html
+_embed.htm
+known_issues.html
+release_notes.html
+
+[INFOTYPES]
+

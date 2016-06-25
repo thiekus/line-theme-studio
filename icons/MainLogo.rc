@@ -1,0 +1,6 @@
+; About text
+ABOUT_TEXT RCDATA ../about.rtf
+
+; Property icons
+
+ABOUT_LOGO RCDATA about/AboutEditor.png

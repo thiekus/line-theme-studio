@@ -1,0 +1,60 @@
+/* Khayalan Software html help CSS style */
+
+/* Export some core fonts */
+@import url("assets/fonts/samuel/stylesheet.css");
+@import url("assets/fonts/dsregular/stylesheet.css");
+@import url("assets/fonts/dsbold/stylesheet.css");
+
+/* Document body */
+body {
+	background-color: #FFFF99;
+	font-family: "Droid Sans", "Tahoma", "Verdana", "Arial";
+}
+
+/* Normal link */
+a {
+	color: #016fcd;
+	text-decoration: none;
+}
+
+/* Hovered link */
+a:hover {
+	color: #ed1c24;
+	text-decoration: none;
+}
+
+/* Active link */
+a:active{
+	color: #ff0000;
+	text-decoration: none;
+}
+
+/*  */
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: -0.025em;
+	font-family: "H.H. Samuel", "Tahoma", "Verdana", "Arial";
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 42px;
+}
+
+h3 {
+	font-size: 36px;
+}
+
+h4 {
+	font-size: 28px;
+}
+
+h5 {
+	font-size: 24px;
+}
+
+h6 {
+	font-size: 20px;
+}
