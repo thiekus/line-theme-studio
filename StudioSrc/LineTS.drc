@@ -8,306 +8,306 @@
   resources were bound to the produced executable.
 */
 
-#define SynEditStrConst_SYNS_FriendlyAttrString 64912
-#define SynEditStrConst_SYNS_FriendlyAttrSymbol 64913
-#define SynEditStrConst_SYNS_ScrollInfoFmt 64914
-#define SynEditStrConst_SYNS_ScrollInfoFmtTop 64915
-#define SynEditStrConst_SYNS_EDuplicateShortcut 64916
-#define SynEditStrConst_SYNS_FilterJScript 64917
-#define SynEditStrConst_SYNS_FriendlyLangJScript 64918
-#define SynEditStrConst_SYNS_FriendlyLangUnknown 64919
-#define SynEditTextBuffer_SListIndexOutOfBounds 64920
-#define SynEditTextBuffer_SInvalidCapacity 64921
-#define uEdit_STextNotFound 64922
-#define uEdit_SNoSelectionAvailable 64923
-#define SsConst_ssscNavHintNewFolder 64928
-#define SsConst_ssscNavHintLastFolder 64929
-#define SsConst_ssscNavHintViewMenu 64930
-#define SsConst_ssscNavBtnOpenCaption 64931
-#define SsConst_ssscNavBtnCancelCaption 64932
-#define SsConst_ssscNavLblTypeCaption 64933
-#define SsConst_ssscNavLblFileNameCaption 64934
-#define uProp_GenHdrBy 64935
-#define uProp_GenHdrTm 64936
-#define SynEditStrConst_SYNS_FriendlyAttrComment 64937
-#define SynEditStrConst_SYNS_FriendlyAttrEvent 64938
-#define SynEditStrConst_SYNS_FriendlyAttrIdentifier 64939
-#define SynEditStrConst_SYNS_FriendlyAttrNonReservedKeyword 64940
-#define SynEditStrConst_SYNS_FriendlyAttrNumber 64941
-#define SynEditStrConst_SYNS_FriendlyAttrReservedWord 64942
-#define SynEditStrConst_SYNS_FriendlyAttrSpace 64943
-#define SsConst_ssscInFileNotFoundS 64944
-#define SsConst_ssscREInFileErrorS 64945
-#define SsConst_ssscOutFileCreateS 64946
-#define SsConst_ssscDisplayPreposition 64947
-#define SsConst_ssscDefaultFolderName 64948
-#define SsConst_ssscViewCaptionLargeIcon 64949
-#define SsConst_ssscViewCaptionSmallIcon 64950
-#define SsConst_ssscViewCaptionList 64951
-#define SsConst_ssscViewCaptionDetails 64952
-#define SsConst_ssscItemDisplayFile 64953
-#define SsConst_ssscItemDisplayFiles 64954
-#define SsConst_ssscItemDisplayFolder 64955
-#define SsConst_ssscItemDisplayFolders 64956
-#define SsConst_ssscItemDispalyObjects 64957
-#define SsConst_ssscNavLookInCaption 64958
-#define SsConst_ssscNavHintMoveUp 64959
-#define SsConst_ssscBadLineLengthS 64960
-#define SsConst_ssscCannotSetSizeS 64961
-#define SsConst_ssscUnknownErrorS 64962
-#define SsConst_ssscExpandingClassS 64963
-#define SsConst_ssscAlternationFollowsClosureS 64964
-#define SsConst_ssscUnbalancedParensS 64965
-#define SsConst_ssscFollowingClosureS 64966
-#define SsConst_ssscPatternErrorS 64967
-#define SsConst_ssscUnbalancedTagS 64968
-#define SsConst_ssscNoPatternsS 64969
-#define SsConst_ssscPatternTooLargeS 64970
-#define SsConst_ssscStreamsNilS 64971
-#define SsConst_ssscInTextStreamErrorS 64972
-#define SsConst_ssscOutTextStreamErrorS 64973
-#define SsConst_ssscClosureMaybeEmptyS 64974
-#define SsConst_ssscOutFileDeleteS 64975
-#define SsConst_ssscOriginalLocS 64976
-#define SsConst_ssscDateDeletedS 64977
-#define SsConst_ssscFileS 64978
-#define SsConst_ssscInvalidFolderS 64979
-#define SsConst_ssscFolderReadOnlyS 64980
-#define SsConst_ssscInvalidSortDirS 64981
-#define SsConst_ssscCreateFileFailedS 64982
-#define SsConst_ssscFileMappingFailedS 64983
-#define SsConst_ssscCreateViewFailedS 64984
-#define SsConst_ssscBadOriginS 64985
-#define SsConst_ssscGetSizeFailedS 64986
-#define SsConst_ssscNilStreamS 64987
-#define SsConst_ssscNoSeekForReadS 64988
-#define SsConst_ssscNoSeekForWriteS 64989
-#define SsConst_ssscCannotWriteS 64990
-#define SsConst_ssscBadTerminatorS 64991
-#define SsConst_ssscNotShortcutS 64992
-#define SsConst_ssscTrayIconCloseS 64993
-#define SsConst_ssscTrayIconRestoreS 64994
-#define SsConst_ssscInvalidTargetFileS 64995
-#define SsConst_ssscShellFileOpDeleteS 64996
-#define SsConst_ssscShellFileNotFoundS 64997
-#define SsConst_ssscTrayIconDuplicateS 64998
-#define SsConst_ssscBadVerInfoKeyS 64999
-#define SsConst_ssscImageListInvalidS 65000
-#define SsConst_ssscNameS 65001
-#define SsConst_ssscSizeS 65002
-#define SsConst_ssscTypeS 65003
-#define SsConst_ssscModifiedS 65004
-#define SsConst_ssscAttributesS 65005
-#define SsConst_ssscFileFolderS 65006
-#define SsConst_ssscSystemFolderS 65007
-#define SsConst_ssscShellVersionErrorS 65008
-#define SsConst_ssscShellFileOpSrcErrorS 65009
-#define SsConst_ssscShellFileOpDstErrorS 65010
-#define SsConst_ssscShellFileOpMapErrorS 65011
-#define SsConst_ssscShellFormatErrorS 65012
-#define SsConst_ssscShellFormatCancelS 65013
-#define SsConst_ssscShellFormatNoFormatS 65014
-#define SsConst_ssscShellFormatBadDriveS 65015
-#define SsConst_ssscTrayIconInvalidOSS 65016
-#define SsConst_ssscTrayIconCantAddS 65017
-#define SsConst_ssscTrayIconCantDeleteS 65018
-#define SsConst_ssscTrayIconErrorS 65019
-#define SsConst_ssscBadDropTargetS 65020
-#define SsConst_ssscCOMInitFailedS 65021
-#define SsConst_ssscNoPathSpecifiedS 65022
-#define SsConst_ssscIShellLinkErrorS 65023
-#define SsConst_ssscBadIndexS 65024
-#define SsConst_ssscBadWinModeS 65025
-#define SsConst_ssscUnknownClassS 65026
-#define SsConst_ssscUnknownNodeClassS 65027
-#define SsConst_ssscNoStoreDataS 65028
-#define SsConst_ssscNoLoadDataS 65029
-#define SsConst_ssscWrongClassS 65030
-#define SsConst_ssscWrongNodeClassS 65031
-#define SsConst_ssscBadCompareS 65032
-#define SsConst_ssscTooManyColsS 65033
-#define SsConst_ssscBadColCountS 65034
-#define SsConst_ssscBadElSizeS 65035
-#define SsConst_ssscBadDupsS 65036
-#define SsConst_ssscFileOpenS 65037
-#define SsConst_ssscNoVerInfoS 65038
-#define SsConst_ssscVerInfoFailS 65039
-#define Imaging_SErrorSwapPalette 65040
-#define Imaging_SErrorCopyRect 65041
-#define Imaging_SErrorFillRect 65042
-#define Imaging_SErrorCopyPalette 65043
-#define Imaging_SErrorReplaceColor 65044
-#define Imaging_SErrorRotateImage 65045
-#define Imaging_SErrorStretchRect 65046
-#define Imaging_SErrorEmptyStream 65047
-#define Imaging_SErrorInvalidInputImage 65048
-#define ImagingComponents_SBadFormatDataToBitmap 65049
-#define ImagingComponents_SBadFormatBitmapToData 65050
-#define ImagingComponents_SImagingGraphicName 65051
-#define SsConst_ssscNoCompareS 65052
-#define SsConst_ssscBadTypeS 65053
-#define SsConst_ssscBadSizeS 65054
-#define SsConst_ssscDupNodeS 65055
-#define Imaging_SErrorNewImage 65056
-#define Imaging_SErrorConvertImage 65057
-#define Imaging_SImageInfo 65058
-#define Imaging_SImageInfoInvalid 65059
-#define Imaging_SFileNotValid 65060
-#define Imaging_SStreamNotValid 65061
-#define Imaging_SMemoryNotValid 65062
-#define Imaging_SErrorLoadingFile 65063
-#define Imaging_SErrorLoadingStream 65064
-#define Imaging_SErrorLoadingMemory 65065
-#define Imaging_SErrorSavingFile 65066
-#define Imaging_SErrorSavingStream 65067
-#define Imaging_SErrorSavingMemory 65068
-#define Imaging_SErrorFindColor 65069
-#define Imaging_SErrorGrayscalePalette 65070
-#define Imaging_SErrorCustomPalette 65071
-#define ImagingCanvases_SConstructorUnsupportedFormat 65072
-#define ImagingNetworkGraphics_SErrorLoadingChunk 65073
-#define ImagingGif_SGIFDecodingError 65074
-#define ImagingRadiance_SErrorBadHeader 65075
-#define ImagingRadiance_SWrongScanLineWidth 65076
-#define ImagingRadiance_SXyzNotSupported 65077
-#define Imaging_SExceptMsg 65078
-#define Imaging_SUnknownFormat 65079
-#define Imaging_SErrorFreeImage 65080
-#define Imaging_SErrorCloneImage 65081
-#define Imaging_SErrorFlipImage 65082
-#define Imaging_SErrorMirrorImage 65083
-#define Imaging_SErrorResizeImage 65084
-#define Imaging_SErrorSwapImage 65085
-#define Imaging_SFileFormatCanNotLoad 65086
-#define Imaging_SFileFormatCanNotSave 65087
-#define pnglang_EInvalidNewSize 65088
-#define pnglang_EInvalidSpec 65089
-#define AdbExec_AdbDefaultExe 65090
-#define DropTarget_sTargetAsyncBusy 65091
-#define DropTarget_sRichEditWarning 65092
-#define DragDrop_sImplementationRequired 65093
-#define DragDrop_sFormatNameReadOnly 65094
-#define DragDropPIDL_sBadDesktop 65095
-#define DragDropPIDL_sBadFilename 65096
-#define TB97Cnst_STB97DockParentNotAllowed 65097
-#define TB97Cnst_STB97DockCannotChangePosition 65098
-#define TB97Cnst_STB97ToolwinParentNotAllowed 65099
-#define TB97Cnst_STB97SepParentNotAllowed 65100
-#define ImagingJpeg_SJpegError 65101
-#define ImagingCanvases_SConstructorInvalidPointer 65102
-#define ImagingCanvases_SConstructorInvalidImage 65103
-#define pnglang_EPNGInvalidFileHeaderText 65104
-#define pnglang_EPNGIHDRNotFirstText 65105
-#define pnglang_EPNGSizeExceedsText 65106
-#define pnglang_EPNGUnknownPalEntryText 65107
-#define pnglang_EPNGUnknownCriticalChunkText 65108
-#define pnglang_EPNGUnknownCompressionText 65109
-#define pnglang_EPNGUnknownInterlaceText 65110
-#define pnglang_EPNGCannotAssignChunkText 65111
-#define pnglang_EPNGUnexpectedEndText 65112
-#define pnglang_EPNGNoImageDataText 65113
-#define pnglang_EPNGCannotAddChunkText 65114
-#define pnglang_EPNGCannotAddInvalidImageText 65115
-#define pnglang_EPNGCouldNotLoadResourceText 65116
-#define pnglang_EPNGOutMemoryText 65117
-#define pnglang_EPNGCannotChangeTransparentText 65118
-#define pnglang_EPNGHeaderNotPresentText 65119
-#define ComConst_SNoMethod 65120
-#define ComConst_SVarNotObject 65121
-#define ComConst_STooManyParams 65122
-#define VirtualTrees_SWrongMoveError 65123
-#define VirtualTrees_SWrongStreamFormat 65124
-#define VirtualTrees_SWrongStreamVersion 65125
-#define VirtualTrees_SStreamTooSmall 65126
-#define VirtualTrees_SCorruptStream1 65127
-#define VirtualTrees_SCorruptStream2 65128
-#define VirtualTrees_SClipboardFailed 65129
-#define VirtualTrees_SCannotSetUserData 65130
-#define pnglang_EPngInvalidCRCText 65131
-#define pnglang_EPNGInvalidIHDRText 65132
-#define pnglang_EPNGMissingMultipleIDATText 65133
-#define pnglang_EPNGZLIBErrorText 65134
-#define pnglang_EPNGInvalidPaletteText 65135
-#define AbResString_AbLtAddS 65136
-#define AbResString_AbLtDeleteS 65137
-#define AbResString_AbLtExtractS 65138
-#define AbResString_AbLtFreshenS 65139
-#define AbResString_AbLtMoveS 65140
-#define AbResString_AbLtReplaceS 65141
-#define AbResString_AbLtStartS 65142
-#define AbResString_AbGzipInvalidS 65143
-#define AbResString_AbGzipBadCRCS 65144
-#define AbResString_AbGzipBadFileSizeS 65145
-#define AbResString_AbTarInvalidS 65146
-#define AbResString_AbTarBadFileNameS 65147
-#define AbResString_AbTarBadLinkNameS 65148
-#define AbResString_AbTarBadOpS 65149
-#define AbResString_AbUnhandledEntityS 65150
-#define ComConst_SOleError 65151
-#define AbResString_AbVMSReadTooManyBytesS 65152
-#define AbResString_AbVMSInvalidOriginS 65153
-#define AbResString_AbVMSErrorOpenSwapS 65154
-#define AbResString_AbVMSSeekFailS 65155
-#define AbResString_AbVMSReadFailS 65156
-#define AbResString_AbVMSWriteFailS 65157
-#define AbResString_AbVMSWriteTooManyBytesS 65158
-#define AbResString_AbBBSReadTooManyBytesS 65159
-#define AbResString_AbBBSSeekOutsideBufferS 65160
-#define AbResString_AbBBSInvalidOriginS 65161
-#define AbResString_AbBBSWriteTooManyBytesS 65162
-#define AbResString_AbSWSNotEndofStreamS 65163
-#define AbResString_AbSWSSeekFailedS 65164
-#define AbResString_AbSWSWriteFailedS 65165
-#define AbResString_AbSWSInvalidOriginS 65166
-#define AbResString_AbSWSInvalidNewOriginS 65167
-#define AbResString_AbLogCreateErrorS 65168
-#define AbResString_AbNoCabinetDllErrorS 65169
-#define AbResString_AbFCIFileOpenErrorS 65170
-#define AbResString_AbFCIFileReadErrorS 65171
-#define AbResString_AbFCIFileWriteErrorS 65172
-#define AbResString_AbFCIFileCloseErrorS 65173
-#define AbResString_AbFCIFileSeekErrorS 65174
-#define AbResString_AbFCIFileDeleteErrorS 65175
-#define AbResString_AbFCIAddFileErrorS 65176
-#define AbResString_AbFCICreateErrorS 65177
-#define AbResString_AbFCIFlushCabinetErrorS 65178
-#define AbResString_AbFCIFlushFolderErrorS 65179
-#define AbResString_AbFDICopyErrorS 65180
-#define AbResString_AbFDICreateErrorS 65181
-#define AbResString_AbInvalidCabTemplateS 65182
-#define AbResString_AbInvalidCabFileS 65183
-#define AbResString_AbBlankDiskS 65184
-#define AbResString_AbStreamFullS 65185
-#define AbResString_AbNoSuchDirectoryS 65186
-#define AbResString_AbInflateBlockErrorS 65187
-#define AbResString_AbBadStreamTypeS 65188
-#define AbResString_AbTruncateErrorS 65189
-#define AbResString_AbZipBadCRCS 65190
-#define AbResString_AbZipBadStubS 65191
-#define AbResString_AbFileNotFoundS 65192
-#define AbResString_AbInvalidLFHS 65193
-#define AbResString_AbNoArchiveS 65194
-#define AbResString_AbReadErrorS 65195
-#define AbResString_AbInvalidIndexS 65196
-#define AbResString_AbInvalidThresholdS 65197
-#define AbResString_AbUnhandledFileTypeS 65198
-#define AbResString_AbSpanningNotSupportedS 65199
-#define AbResString_AbZipVersionNeededS 65200
-#define AbResString_AbUnknownCompressionMethodS 65201
-#define AbResString_AbNoExtractionMethodS 65202
-#define AbResString_AbInvalidPasswordS 65203
-#define AbResString_AbNoInsertionMethodS 65204
-#define AbResString_AbInvalidFactorS 65205
-#define AbResString_AbDuplicateNameS 65206
-#define AbResString_AbUnsupportedCompressionMethodS 65207
-#define AbResString_AbUserAbortS 65208
-#define AbResString_AbArchiveBusyS 65209
-#define AbResString_AbLastDiskRequestS 65210
-#define AbResString_AbDiskRequestS 65211
-#define AbResString_AbBadSpanStreamS 65212
-#define AbResString_AbDiskNumRequestS 65213
-#define AbResString_AbNoOverwriteSpanStreamS 65214
-#define AbResString_AbNoSpannedSelfExtractS 65215
+#define Imaging_SErrorFillRect 64912
+#define Imaging_SErrorCopyPalette 64913
+#define Imaging_SErrorReplaceColor 64914
+#define Imaging_SErrorRotateImage 64915
+#define Imaging_SErrorStretchRect 64916
+#define Imaging_SErrorEmptyStream 64917
+#define Imaging_SErrorInvalidInputImage 64918
+#define ImagingComponents_SBadFormatDataToBitmap 64919
+#define ImagingComponents_SBadFormatBitmapToData 64920
+#define ImagingComponents_SImagingGraphicName 64921
+#define uProp_GenHdrBy 64922
+#define uProp_GenHdrTm 64923
+#define Imaging_SImageInfo 64928
+#define Imaging_SImageInfoInvalid 64929
+#define Imaging_SFileNotValid 64930
+#define Imaging_SStreamNotValid 64931
+#define Imaging_SMemoryNotValid 64932
+#define Imaging_SErrorLoadingFile 64933
+#define Imaging_SErrorLoadingStream 64934
+#define Imaging_SErrorLoadingMemory 64935
+#define Imaging_SErrorSavingFile 64936
+#define Imaging_SErrorSavingStream 64937
+#define Imaging_SErrorSavingMemory 64938
+#define Imaging_SErrorFindColor 64939
+#define Imaging_SErrorGrayscalePalette 64940
+#define Imaging_SErrorCustomPalette 64941
+#define Imaging_SErrorSwapPalette 64942
+#define Imaging_SErrorCopyRect 64943
+#define ImagingRadiance_SXyzNotSupported 64944
+#define ImagingGif_SGIFDecodingError 64945
+#define ImagingJpeg_SJpegError 64946
+#define ImagingNetworkGraphics_SErrorLoadingChunk 64947
+#define Imaging_SExceptMsg 64948
+#define Imaging_SUnknownFormat 64949
+#define Imaging_SErrorFreeImage 64950
+#define Imaging_SErrorCloneImage 64951
+#define Imaging_SErrorFlipImage 64952
+#define Imaging_SErrorMirrorImage 64953
+#define Imaging_SErrorResizeImage 64954
+#define Imaging_SErrorSwapImage 64955
+#define Imaging_SFileFormatCanNotLoad 64956
+#define Imaging_SFileFormatCanNotSave 64957
+#define Imaging_SErrorNewImage 64958
+#define Imaging_SErrorConvertImage 64959
+#define SynEditStrConst_SYNS_FilterJScript 64960
+#define SynEditStrConst_SYNS_FriendlyLangJScript 64961
+#define SynEditStrConst_SYNS_FriendlyLangUnknown 64962
+#define SynEditTextBuffer_SListIndexOutOfBounds 64963
+#define SynEditTextBuffer_SInvalidCapacity 64964
+#define TB97Cnst_STB97DockParentNotAllowed 64965
+#define TB97Cnst_STB97DockCannotChangePosition 64966
+#define TB97Cnst_STB97ToolwinParentNotAllowed 64967
+#define TB97Cnst_STB97SepParentNotAllowed 64968
+#define uEdit_STextNotFound 64969
+#define uEdit_SNoSelectionAvailable 64970
+#define ImagingCanvases_SConstructorInvalidPointer 64971
+#define ImagingCanvases_SConstructorInvalidImage 64972
+#define ImagingCanvases_SConstructorUnsupportedFormat 64973
+#define ImagingRadiance_SErrorBadHeader 64974
+#define ImagingRadiance_SWrongScanLineWidth 64975
+#define SsConst_ssscNavBtnOpenCaption 64976
+#define SsConst_ssscNavBtnCancelCaption 64977
+#define SsConst_ssscNavLblTypeCaption 64978
+#define SsConst_ssscNavLblFileNameCaption 64979
+#define SynEditStrConst_SYNS_FriendlyAttrComment 64980
+#define SynEditStrConst_SYNS_FriendlyAttrEvent 64981
+#define SynEditStrConst_SYNS_FriendlyAttrIdentifier 64982
+#define SynEditStrConst_SYNS_FriendlyAttrNonReservedKeyword 64983
+#define SynEditStrConst_SYNS_FriendlyAttrNumber 64984
+#define SynEditStrConst_SYNS_FriendlyAttrReservedWord 64985
+#define SynEditStrConst_SYNS_FriendlyAttrSpace 64986
+#define SynEditStrConst_SYNS_FriendlyAttrString 64987
+#define SynEditStrConst_SYNS_FriendlyAttrSymbol 64988
+#define SynEditStrConst_SYNS_ScrollInfoFmt 64989
+#define SynEditStrConst_SYNS_ScrollInfoFmtTop 64990
+#define SynEditStrConst_SYNS_EDuplicateShortcut 64991
+#define SsConst_ssscDisplayPreposition 64992
+#define SsConst_ssscDefaultFolderName 64993
+#define SsConst_ssscViewCaptionLargeIcon 64994
+#define SsConst_ssscViewCaptionSmallIcon 64995
+#define SsConst_ssscViewCaptionList 64996
+#define SsConst_ssscViewCaptionDetails 64997
+#define SsConst_ssscItemDisplayFile 64998
+#define SsConst_ssscItemDisplayFiles 64999
+#define SsConst_ssscItemDisplayFolder 65000
+#define SsConst_ssscItemDisplayFolders 65001
+#define SsConst_ssscItemDispalyObjects 65002
+#define SsConst_ssscNavLookInCaption 65003
+#define SsConst_ssscNavHintMoveUp 65004
+#define SsConst_ssscNavHintNewFolder 65005
+#define SsConst_ssscNavHintLastFolder 65006
+#define SsConst_ssscNavHintViewMenu 65007
+#define SsConst_ssscExpandingClassS 65008
+#define SsConst_ssscAlternationFollowsClosureS 65009
+#define SsConst_ssscUnbalancedParensS 65010
+#define SsConst_ssscFollowingClosureS 65011
+#define SsConst_ssscPatternErrorS 65012
+#define SsConst_ssscUnbalancedTagS 65013
+#define SsConst_ssscNoPatternsS 65014
+#define SsConst_ssscPatternTooLargeS 65015
+#define SsConst_ssscStreamsNilS 65016
+#define SsConst_ssscInTextStreamErrorS 65017
+#define SsConst_ssscOutTextStreamErrorS 65018
+#define SsConst_ssscClosureMaybeEmptyS 65019
+#define SsConst_ssscOutFileDeleteS 65020
+#define SsConst_ssscInFileNotFoundS 65021
+#define SsConst_ssscREInFileErrorS 65022
+#define SsConst_ssscOutFileCreateS 65023
+#define SsConst_ssscInvalidFolderS 65024
+#define SsConst_ssscFolderReadOnlyS 65025
+#define SsConst_ssscInvalidSortDirS 65026
+#define SsConst_ssscCreateFileFailedS 65027
+#define SsConst_ssscFileMappingFailedS 65028
+#define SsConst_ssscCreateViewFailedS 65029
+#define SsConst_ssscBadOriginS 65030
+#define SsConst_ssscGetSizeFailedS 65031
+#define SsConst_ssscNilStreamS 65032
+#define SsConst_ssscNoSeekForReadS 65033
+#define SsConst_ssscNoSeekForWriteS 65034
+#define SsConst_ssscCannotWriteS 65035
+#define SsConst_ssscBadTerminatorS 65036
+#define SsConst_ssscBadLineLengthS 65037
+#define SsConst_ssscCannotSetSizeS 65038
+#define SsConst_ssscUnknownErrorS 65039
+#define SsConst_ssscInvalidTargetFileS 65040
+#define SsConst_ssscShellFileOpDeleteS 65041
+#define SsConst_ssscShellFileNotFoundS 65042
+#define SsConst_ssscTrayIconDuplicateS 65043
+#define SsConst_ssscBadVerInfoKeyS 65044
+#define SsConst_ssscImageListInvalidS 65045
+#define SsConst_ssscNameS 65046
+#define SsConst_ssscSizeS 65047
+#define SsConst_ssscTypeS 65048
+#define SsConst_ssscModifiedS 65049
+#define SsConst_ssscAttributesS 65050
+#define SsConst_ssscFileFolderS 65051
+#define SsConst_ssscSystemFolderS 65052
+#define SsConst_ssscOriginalLocS 65053
+#define SsConst_ssscDateDeletedS 65054
+#define SsConst_ssscFileS 65055
+#define SsConst_ssscShellFileOpMapErrorS 65056
+#define SsConst_ssscShellFormatErrorS 65057
+#define SsConst_ssscShellFormatCancelS 65058
+#define SsConst_ssscShellFormatNoFormatS 65059
+#define SsConst_ssscShellFormatBadDriveS 65060
+#define SsConst_ssscTrayIconInvalidOSS 65061
+#define SsConst_ssscTrayIconCantAddS 65062
+#define SsConst_ssscTrayIconCantDeleteS 65063
+#define SsConst_ssscTrayIconErrorS 65064
+#define SsConst_ssscBadDropTargetS 65065
+#define SsConst_ssscCOMInitFailedS 65066
+#define SsConst_ssscNoPathSpecifiedS 65067
+#define SsConst_ssscIShellLinkErrorS 65068
+#define SsConst_ssscNotShortcutS 65069
+#define SsConst_ssscTrayIconCloseS 65070
+#define SsConst_ssscTrayIconRestoreS 65071
+#define SsConst_ssscUnknownNodeClassS 65072
+#define SsConst_ssscNoStoreDataS 65073
+#define SsConst_ssscNoLoadDataS 65074
+#define SsConst_ssscWrongClassS 65075
+#define SsConst_ssscWrongNodeClassS 65076
+#define SsConst_ssscBadCompareS 65077
+#define SsConst_ssscTooManyColsS 65078
+#define SsConst_ssscBadColCountS 65079
+#define SsConst_ssscBadElSizeS 65080
+#define SsConst_ssscBadDupsS 65081
+#define SsConst_ssscFileOpenS 65082
+#define SsConst_ssscNoVerInfoS 65083
+#define SsConst_ssscVerInfoFailS 65084
+#define SsConst_ssscShellVersionErrorS 65085
+#define SsConst_ssscShellFileOpSrcErrorS 65086
+#define SsConst_ssscShellFileOpDstErrorS 65087
+#define AbResString_AbLtStartS 65088
+#define AbResString_AbGzipInvalidS 65089
+#define AbResString_AbGzipBadCRCS 65090
+#define AbResString_AbGzipBadFileSizeS 65091
+#define AbResString_AbTarInvalidS 65092
+#define AbResString_AbTarBadFileNameS 65093
+#define AbResString_AbTarBadLinkNameS 65094
+#define AbResString_AbTarBadOpS 65095
+#define AbResString_AbUnhandledEntityS 65096
+#define SsConst_ssscNoCompareS 65097
+#define SsConst_ssscBadTypeS 65098
+#define SsConst_ssscBadSizeS 65099
+#define SsConst_ssscDupNodeS 65100
+#define SsConst_ssscBadIndexS 65101
+#define SsConst_ssscBadWinModeS 65102
+#define SsConst_ssscUnknownClassS 65103
+#define AbResString_AbVMSWriteTooManyBytesS 65104
+#define AbResString_AbBBSReadTooManyBytesS 65105
+#define AbResString_AbBBSSeekOutsideBufferS 65106
+#define AbResString_AbBBSInvalidOriginS 65107
+#define AbResString_AbBBSWriteTooManyBytesS 65108
+#define AbResString_AbSWSNotEndofStreamS 65109
+#define AbResString_AbSWSSeekFailedS 65110
+#define AbResString_AbSWSWriteFailedS 65111
+#define AbResString_AbSWSInvalidOriginS 65112
+#define AbResString_AbSWSInvalidNewOriginS 65113
+#define AbResString_AbLtAddS 65114
+#define AbResString_AbLtDeleteS 65115
+#define AbResString_AbLtExtractS 65116
+#define AbResString_AbLtFreshenS 65117
+#define AbResString_AbLtMoveS 65118
+#define AbResString_AbLtReplaceS 65119
+#define AbResString_AbFCIFileSeekErrorS 65120
+#define AbResString_AbFCIFileDeleteErrorS 65121
+#define AbResString_AbFCIAddFileErrorS 65122
+#define AbResString_AbFCICreateErrorS 65123
+#define AbResString_AbFCIFlushCabinetErrorS 65124
+#define AbResString_AbFCIFlushFolderErrorS 65125
+#define AbResString_AbFDICopyErrorS 65126
+#define AbResString_AbFDICreateErrorS 65127
+#define AbResString_AbInvalidCabTemplateS 65128
+#define AbResString_AbInvalidCabFileS 65129
+#define AbResString_AbVMSReadTooManyBytesS 65130
+#define AbResString_AbVMSInvalidOriginS 65131
+#define AbResString_AbVMSErrorOpenSwapS 65132
+#define AbResString_AbVMSSeekFailS 65133
+#define AbResString_AbVMSReadFailS 65134
+#define AbResString_AbVMSWriteFailS 65135
+#define AbResString_AbZipBadCRCS 65136
+#define AbResString_AbZipBadStubS 65137
+#define AbResString_AbFileNotFoundS 65138
+#define AbResString_AbInvalidLFHS 65139
+#define AbResString_AbNoArchiveS 65140
+#define AbResString_AbReadErrorS 65141
+#define AbResString_AbInvalidIndexS 65142
+#define AbResString_AbInvalidThresholdS 65143
+#define AbResString_AbUnhandledFileTypeS 65144
+#define AbResString_AbSpanningNotSupportedS 65145
+#define AbResString_AbLogCreateErrorS 65146
+#define AbResString_AbNoCabinetDllErrorS 65147
+#define AbResString_AbFCIFileOpenErrorS 65148
+#define AbResString_AbFCIFileReadErrorS 65149
+#define AbResString_AbFCIFileWriteErrorS 65150
+#define AbResString_AbFCIFileCloseErrorS 65151
+#define AbResString_AbDuplicateNameS 65152
+#define AbResString_AbUnsupportedCompressionMethodS 65153
+#define AbResString_AbUserAbortS 65154
+#define AbResString_AbArchiveBusyS 65155
+#define AbResString_AbLastDiskRequestS 65156
+#define AbResString_AbDiskRequestS 65157
+#define AbResString_AbBadSpanStreamS 65158
+#define AbResString_AbDiskNumRequestS 65159
+#define AbResString_AbNoOverwriteSpanStreamS 65160
+#define AbResString_AbNoSpannedSelfExtractS 65161
+#define AbResString_AbBlankDiskS 65162
+#define AbResString_AbStreamFullS 65163
+#define AbResString_AbNoSuchDirectoryS 65164
+#define AbResString_AbInflateBlockErrorS 65165
+#define AbResString_AbBadStreamTypeS 65166
+#define AbResString_AbTruncateErrorS 65167
+#define pnglang_EInvalidSpec 65168
+#define VirtualTrees_SWrongMoveError 65169
+#define VirtualTrees_SWrongStreamFormat 65170
+#define VirtualTrees_SWrongStreamVersion 65171
+#define VirtualTrees_SStreamTooSmall 65172
+#define VirtualTrees_SCorruptStream1 65173
+#define VirtualTrees_SCorruptStream2 65174
+#define VirtualTrees_SClipboardFailed 65175
+#define VirtualTrees_SCannotSetUserData 65176
+#define AbResString_AbErrZipInvalidS 65177
+#define AbResString_AbZipVersionNeededS 65178
+#define AbResString_AbUnknownCompressionMethodS 65179
+#define AbResString_AbNoExtractionMethodS 65180
+#define AbResString_AbInvalidPasswordS 65181
+#define AbResString_AbNoInsertionMethodS 65182
+#define AbResString_AbInvalidFactorS 65183
+#define pnglang_EPNGIHDRNotFirstText 65184
+#define pnglang_EPNGSizeExceedsText 65185
+#define pnglang_EPNGUnknownPalEntryText 65186
+#define pnglang_EPNGUnknownCriticalChunkText 65187
+#define pnglang_EPNGUnknownCompressionText 65188
+#define pnglang_EPNGUnknownInterlaceText 65189
+#define pnglang_EPNGCannotAssignChunkText 65190
+#define pnglang_EPNGUnexpectedEndText 65191
+#define pnglang_EPNGNoImageDataText 65192
+#define pnglang_EPNGCannotAddChunkText 65193
+#define pnglang_EPNGCannotAddInvalidImageText 65194
+#define pnglang_EPNGCouldNotLoadResourceText 65195
+#define pnglang_EPNGOutMemoryText 65196
+#define pnglang_EPNGCannotChangeTransparentText 65197
+#define pnglang_EPNGHeaderNotPresentText 65198
+#define pnglang_EInvalidNewSize 65199
+#define ComConst_SNoMethod 65200
+#define ComConst_SVarNotObject 65201
+#define ComConst_STooManyParams 65202
+#define DropTarget_sTargetAsyncBusy 65203
+#define DropTarget_sRichEditWarning 65204
+#define DragDrop_sImplementationRequired 65205
+#define DragDrop_sFormatNameReadOnly 65206
+#define DragDropPIDL_sBadDesktop 65207
+#define DragDropPIDL_sBadFilename 65208
+#define AdbExec_AdbDefaultExe 65209
+#define pnglang_EPngInvalidCRCText 65210
+#define pnglang_EPNGInvalidIHDRText 65211
+#define pnglang_EPNGMissingMultipleIDATText 65212
+#define pnglang_EPNGZLIBErrorText 65213
+#define pnglang_EPNGInvalidPaletteText 65214
+#define pnglang_EPNGInvalidFileHeaderText 65215
 #define ComStrs_sTabFailRetrieve 65216
 #define ComStrs_sTabFailGetObject 65217
 #define ComStrs_sTabFailSet 65218
@@ -323,7 +323,7 @@
 #define ComStrs_sRichEditSaveFail 65228
 #define ComStrs_sPageIndexError 65229
 #define ComStrs_sInvalidComCtl32 65230
-#define AbResString_AbErrZipInvalidS 65231
+#define ComConst_SOleError 65231
 #define Consts_SListBoxMustBeVirtual 65232
 #define Consts_SNoGetItemEventHandler 65233
 #define Consts_SANSIEncoding 65234
@@ -630,132 +630,6 @@
 #define SysConst_SOverflow 65535
 STRINGTABLE
 BEGIN
-	SynEditStrConst_SYNS_FriendlyAttrString,	"String"
-	SynEditStrConst_SYNS_FriendlyAttrSymbol,	"Symbol"
-	SynEditStrConst_SYNS_ScrollInfoFmt,	"%d - %d"
-	SynEditStrConst_SYNS_ScrollInfoFmtTop,	"Top Line: %d"
-	SynEditStrConst_SYNS_EDuplicateShortcut,	"Shortcut already exists"
-	SynEditStrConst_SYNS_FilterJScript,	"Javascript Files (*.js)|*.js"
-	SynEditStrConst_SYNS_FriendlyLangJScript,	"JavaScript"
-	SynEditStrConst_SYNS_FriendlyLangUnknown,	"<Unknown>"
-	SynEditTextBuffer_SListIndexOutOfBounds,	"Invalid stringlist index %d"
-	SynEditTextBuffer_SInvalidCapacity,	"Stringlist capacity cannot be smaller than count"
-	uEdit_STextNotFound,	"Text not found"
-	uEdit_SNoSelectionAvailable,	"The is no selection available, search whole text?"
-	SsConst_ssscNavHintNewFolder,	"Create New Folder"
-	SsConst_ssscNavHintLastFolder,	"Go To Last Folder Visited"
-	SsConst_ssscNavHintViewMenu,	"View Menu"
-	SsConst_ssscNavBtnOpenCaption,	"&Open"
-	SsConst_ssscNavBtnCancelCaption,	"Cancel"
-	SsConst_ssscNavLblTypeCaption,	"Files of &type:"
-	SsConst_ssscNavLblFileNameCaption,	"File &name:"
-	uProp_GenHdrBy,	"Theme properties re-generated by Line Theme Studio %s"
-	uProp_GenHdrTm,	"On %s, %d %s %d - %s"
-	SynEditStrConst_SYNS_FriendlyAttrComment,	"Comment"
-	SynEditStrConst_SYNS_FriendlyAttrEvent,	"Event"
-	SynEditStrConst_SYNS_FriendlyAttrIdentifier,	"Identifier"
-	SynEditStrConst_SYNS_FriendlyAttrNonReservedKeyword,	"Non-reserved Keyword"
-	SynEditStrConst_SYNS_FriendlyAttrNumber,	"Number"
-	SynEditStrConst_SYNS_FriendlyAttrReservedWord,	"Reserved Word"
-	SynEditStrConst_SYNS_FriendlyAttrSpace,	"Space"
-	SsConst_ssscInFileNotFoundS,	"Input file not found"
-	SsConst_ssscREInFileErrorS,	"Error creating internal text stream"
-	SsConst_ssscOutFileCreateS,	"Error creating output file"
-	SsConst_ssscDisplayPreposition,	" on "
-	SsConst_ssscDefaultFolderName,	"New Folder"
-	SsConst_ssscViewCaptionLargeIcon,	"Lar&ge Icons"
-	SsConst_ssscViewCaptionSmallIcon,	"S&mall Icons"
-	SsConst_ssscViewCaptionList,	"&List"
-	SsConst_ssscViewCaptionDetails,	"&Details"
-	SsConst_ssscItemDisplayFile,	" file"
-	SsConst_ssscItemDisplayFiles,	" files"
-	SsConst_ssscItemDisplayFolder,	" folder"
-	SsConst_ssscItemDisplayFolders,	" folders"
-	SsConst_ssscItemDispalyObjects,	" objects"
-	SsConst_ssscNavLookInCaption,	"Look &in:"
-	SsConst_ssscNavHintMoveUp,	"Up One Level"
-	SsConst_ssscBadLineLengthS,	"Text stream: Length of a fixed line must be between 1 and 4096 bytes"
-	SsConst_ssscCannotSetSizeS,	"Buffered/text stream: Cannot set the size of the underlying stream (needs OnSetStreamSize event)"
-	SsConst_ssscUnknownErrorS,	"Unknown error creating a pattern token"
-	SsConst_ssscExpandingClassS,	"Problem in expanding character class"
-	SsConst_ssscAlternationFollowsClosureS,	"Alternation cannot immediately follow a closure marker"
-	SsConst_ssscUnbalancedParensS,	"Unbalanced nesting parentheses"
-	SsConst_ssscFollowingClosureS,	"Closure cannot immediately follow BegOfLine, EndOfLine or another closure"
-	SsConst_ssscPatternErrorS,	"Error detected near end of pattern"
-	SsConst_ssscUnbalancedTagS,	"Unbalanced tag marker"
-	SsConst_ssscNoPatternsS,	"No Match, Replace, or SelAvoid Patterns defined"
-	SsConst_ssscPatternTooLargeS,	"Pattern exceeds MaxPatLen"
-	SsConst_ssscStreamsNilS,	"Input and/or output stream is not assigned"
-	SsConst_ssscInTextStreamErrorS,	"Error creating internal input text stream"
-	SsConst_ssscOutTextStreamErrorS,	"Error creating internal output text stream"
-	SsConst_ssscClosureMaybeEmptyS,	"A * or + operand could be empty"
-	SsConst_ssscOutFileDeleteS,	"Error deleting old previous file"
-	SsConst_ssscOriginalLocS,	"Original Location"
-	SsConst_ssscDateDeletedS,	"Date Deleted"
-	SsConst_ssscFileS,	"File"
-	SsConst_ssscInvalidFolderS,	"Invalid folder"
-	SsConst_ssscFolderReadOnlyS,	"Cannot create folder: Parent folder is read-only"
-	SsConst_ssscInvalidSortDirS,	"Invalid sort direction"
-	SsConst_ssscCreateFileFailedS,	"CreateFile failed"
-	SsConst_ssscFileMappingFailedS,	"CreateFileMapping failed"
-	SsConst_ssscCreateViewFailedS,	"MapViewOfFile failed"
-	SsConst_ssscBadOriginS,	"Bad origin parameter for call to Seek"
-	SsConst_ssscGetSizeFailedS,	"Error reading size of existing file"
-	SsConst_ssscNilStreamS,	"Buffered/text stream: Attempted to read, write, or seek and underlying stream is nil"
-	SsConst_ssscNoSeekForReadS,	"Buffered/text stream: Could not seek to the correct position in the underlying stream (for read request)"
-	SsConst_ssscNoSeekForWriteS,	"Buffered/text stream: Could not seek to the correct position in the underlying stream (for write request)"
-	SsConst_ssscCannotWriteS,	"Buffered/text stream: Could not write the entire buffer to the underlying stream"
-	SsConst_ssscBadTerminatorS,	"Text stream: Case statement was used with a bad value of LineTerminator"
-	SsConst_ssscNotShortcutS,	"File is not a shortcut"
-	SsConst_ssscTrayIconCloseS,	"&Close"
-	SsConst_ssscTrayIconRestoreS,	"&Restore"
-	SsConst_ssscInvalidTargetFileS,	"Cannot create shortcut. Target file does not exist"
-	SsConst_ssscShellFileOpDeleteS,	"Cannot use file mappings in a delete operation"
-	SsConst_ssscShellFileNotFoundS,	"Source file error, file not found"
-	SsConst_ssscTrayIconDuplicateS,	"Cannot have more than one StTrayIcon per application"
-	SsConst_ssscBadVerInfoKeyS,	"The specified key cannnot be found in version info"
-	SsConst_ssscImageListInvalidS,	"ImageList is not assigned"
-	SsConst_ssscNameS,	"Name"
-	SsConst_ssscSizeS,	"Size"
-	SsConst_ssscTypeS,	"Type"
-	SsConst_ssscModifiedS,	"Modified"
-	SsConst_ssscAttributesS,	"Attributes"
-	SsConst_ssscFileFolderS,	"File Folder"
-	SsConst_ssscSystemFolderS,	"System Folder"
-	SsConst_ssscShellVersionErrorS,	"Operation not supported in this version of the shell"
-	SsConst_ssscShellFileOpSrcErrorS,	"No source files specified"
-	SsConst_ssscShellFileOpDstErrorS,	"No destination files specified"
-	SsConst_ssscShellFileOpMapErrorS,	"File mapping incomplete"
-	SsConst_ssscShellFormatErrorS,	"Format failed"
-	SsConst_ssscShellFormatCancelS,	"Format cancelled"
-	SsConst_ssscShellFormatNoFormatS,	"Drive cannot be formatted"
-	SsConst_ssscShellFormatBadDriveS,	"Invalid drive. Drive is not removable"
-	SsConst_ssscTrayIconInvalidOSS,	"Operating system does not support tray icons"
-	SsConst_ssscTrayIconCantAddS,	"Error adding tray icon"
-	SsConst_ssscTrayIconCantDeleteS,	"Error removing tray icon"
-	SsConst_ssscTrayIconErrorS,	"Tray icon error"
-	SsConst_ssscBadDropTargetS,	"Drop target must be a TWinControl descendant"
-	SsConst_ssscCOMInitFailedS,	"Cannot initialize COM"
-	SsConst_ssscNoPathSpecifiedS,	"Destination directory not specified"
-	SsConst_ssscIShellLinkErrorS,	"Error creating IShellLink"
-	SsConst_ssscBadIndexS,	"Index is out of range"
-	SsConst_ssscBadWinModeS,	"Requires enhanced mode operation for Windows 3.1x"
-	SsConst_ssscUnknownClassS,	"Container class name %s read from stream is unregistered"
-	SsConst_ssscUnknownNodeClassS,	"Node class name %s read from stream is unregistered"
-	SsConst_ssscNoStoreDataS,	"Container's StoreData property is unassigned"
-	SsConst_ssscNoLoadDataS,	"Container's LoadData property is unassigned"
-	SsConst_ssscWrongClassS,	"Class name on stream differs from object's class"
-	SsConst_ssscWrongNodeClassS,	"Node class name on stream differs from object's node class"
-	SsConst_ssscBadCompareS,	"Unable to assign this compare function now"
-	SsConst_ssscTooManyColsS,	"Cannot assign a matrix with more than 1 column to an array"
-	SsConst_ssscBadColCountS,	"Can only assign a matrix to a virtual matrix if column counts are equal"
-	SsConst_ssscBadElSizeS,	"Can only assign a matrix to a virtual matrix if element sizes are equal"
-	SsConst_ssscBadDupsS,	"Can only set Duplicates to False in an empty sorted collection"
-	SsConst_ssscFileOpenS,	"Error opening file"
-	SsConst_ssscNoVerInfoS,	"File does not contain version info"
-	SsConst_ssscVerInfoFailS,	"Unable to read version info"
-	Imaging_SErrorSwapPalette,	"Error while swapping channels of palette @%p with %d entries."
-	Imaging_SErrorCopyRect,	"Error while copying rect from image %s to image %s."
 	Imaging_SErrorFillRect,	"Error while filling rectangle X:%d Y:%d W:%d H:%d in image %s"
 	Imaging_SErrorCopyPalette,	"Error while copying %d entries from palette @%p to @%p"
 	Imaging_SErrorReplaceColor,	"Error while replacing colors in rectangle X:%d Y:%d W:%d H:%d of image %s"
@@ -766,12 +640,8 @@ BEGIN
 	ImagingComponents_SBadFormatDataToBitmap,	"Cannot find compatible bitmap format for image %s"
 	ImagingComponents_SBadFormatBitmapToData,	"Cannot find compatible data format for bitmap %p"
 	ImagingComponents_SImagingGraphicName,	"Imaging Graphic AllInOne"
-	SsConst_ssscNoCompareS,	"Compare property must be set"
-	SsConst_ssscBadTypeS,	"An incompatible class is passed to a method"
-	SsConst_ssscBadSizeS,	"Bad size parameter"
-	SsConst_ssscDupNodeS,	"Attempt to add duplicate node to TStTree"
-	Imaging_SErrorNewImage,	"Error while creating image data with params: Width=%d Height=%d Format=%s."
-	Imaging_SErrorConvertImage,	"Error while converting image to format \"%s\". %s"
+	uProp_GenHdrBy,	"Theme properties re-generated by Line Theme Studio %s"
+	uProp_GenHdrTm,	"On %s, %d %s %d - %s"
 	Imaging_SImageInfo,	"Image @%p info: Width = %dpx, Height = %dpx, Format = %s, Size = %.0n %s, Bits @%p, Palette @%p."
 	Imaging_SImageInfoInvalid,	"Access violation encountered when getting info on image at address %p."
 	Imaging_SFileNotValid,	"File \"%s\" is not valid image in \"%s\" format."
@@ -786,12 +656,12 @@ BEGIN
 	Imaging_SErrorFindColor,	"Error while finding color in palette @%p with %d entries."
 	Imaging_SErrorGrayscalePalette,	"Error while filling grayscale palette @%p with %d entries."
 	Imaging_SErrorCustomPalette,	"Error while filling custom palette @%p with %d entries."
-	ImagingCanvases_SConstructorUnsupportedFormat,	"Image passed to TImagingCanvas constructor is in unsupported format (%s)"
-	ImagingNetworkGraphics_SErrorLoadingChunk,	"Error when reading %s chunk data. File may be corrupted."
-	ImagingGif_SGIFDecodingError,	"Error when decoding GIF LZW data"
-	ImagingRadiance_SErrorBadHeader,	"Bad HDR/RGBE header format."
-	ImagingRadiance_SWrongScanLineWidth,	"Wrong scanline width."
+	Imaging_SErrorSwapPalette,	"Error while swapping channels of palette @%p with %d entries."
+	Imaging_SErrorCopyRect,	"Error while copying rect from image %s to image %s."
 	ImagingRadiance_SXyzNotSupported,	"XYZ color space not supported."
+	ImagingGif_SGIFDecodingError,	"Error when decoding GIF LZW data"
+	ImagingJpeg_SJpegError,	"JPEG Error"
+	ImagingNetworkGraphics_SErrorLoadingChunk,	"Error when reading %s chunk data. File may be corrupted."
 	Imaging_SExceptMsg,	"Exception Message"
 	Imaging_SUnknownFormat,	"Unknown and unsupported format"
 	Imaging_SErrorFreeImage,	"Error while freeing image. %s"
@@ -802,23 +672,232 @@ BEGIN
 	Imaging_SErrorSwapImage,	"Error while swapping channels of image. %s"
 	Imaging_SFileFormatCanNotLoad,	"Image Format \"%s\" does not support loading images."
 	Imaging_SFileFormatCanNotSave,	"Image Format \"%s\" does not support saving images."
-	pnglang_EInvalidNewSize,	"The new size provided for image resizing is invalid."
-	pnglang_EInvalidSpec,	"The \"Portable Network Graphics\" could not be created because invalid image type parameters have being provided."
-	AdbExec_AdbDefaultExe,	"adb.exe"
-	DropTarget_sTargetAsyncBusy,	"Can't clear data while async data transfer is in progress"
-	DropTarget_sRichEditWarning,	"It is strongly recommended that you set the AutoRegister\rproperty to False when the drop target is a rich edit control.\r\rOtherwise the text of the rich edit control might become\rinvisible when the control is scrolled or modifified"
-	DragDrop_sImplementationRequired,	"Internal error: %s.%s needs implementation"
-	DragDrop_sFormatNameReadOnly,	"%s.ClipboardFormat is read-only"
-	DragDropPIDL_sBadDesktop,	"Failed to get interface to Desktop"
-	DragDropPIDL_sBadFilename,	"Invalid filename: %s"
+	Imaging_SErrorNewImage,	"Error while creating image data with params: Width=%d Height=%d Format=%s."
+	Imaging_SErrorConvertImage,	"Error while converting image to format \"%s\". %s"
+	SynEditStrConst_SYNS_FilterJScript,	"Javascript Files (*.js)|*.js"
+	SynEditStrConst_SYNS_FriendlyLangJScript,	"JavaScript"
+	SynEditStrConst_SYNS_FriendlyLangUnknown,	"<Unknown>"
+	SynEditTextBuffer_SListIndexOutOfBounds,	"Invalid stringlist index %d"
+	SynEditTextBuffer_SInvalidCapacity,	"Stringlist capacity cannot be smaller than count"
 	TB97Cnst_STB97DockParentNotAllowed,	"A TDock97 control cannot be placed inside a tool window or another TDock97"
 	TB97Cnst_STB97DockCannotChangePosition,	"Cannot change Position of a TDock97 if it already contains controls"
 	TB97Cnst_STB97ToolwinParentNotAllowed,	"A tool window can only be placed on a TDock97 or directly on the form"
 	TB97Cnst_STB97SepParentNotAllowed,	"TToolbarSep97 can only be placed on a TToolbar97"
-	ImagingJpeg_SJpegError,	"JPEG Error"
+	uEdit_STextNotFound,	"Text not found"
+	uEdit_SNoSelectionAvailable,	"The is no selection available, search whole text?"
 	ImagingCanvases_SConstructorInvalidPointer,	"Invalid pointer (%p) to TImageData passed to TImagingCanvas constructor."
 	ImagingCanvases_SConstructorInvalidImage,	"Invalid image data passed to TImagingCanvas constructor (%s)."
-	pnglang_EPNGInvalidFileHeaderText,	"The file being read is not a valid \"Portable Network Graphics\" image because it contains an invalid header. This file may be corrupted, try obtaining it again"
+	ImagingCanvases_SConstructorUnsupportedFormat,	"Image passed to TImagingCanvas constructor is in unsupported format (%s)"
+	ImagingRadiance_SErrorBadHeader,	"Bad HDR/RGBE header format."
+	ImagingRadiance_SWrongScanLineWidth,	"Wrong scanline width."
+	SsConst_ssscNavBtnOpenCaption,	"&Open"
+	SsConst_ssscNavBtnCancelCaption,	"Cancel"
+	SsConst_ssscNavLblTypeCaption,	"Files of &type:"
+	SsConst_ssscNavLblFileNameCaption,	"File &name:"
+	SynEditStrConst_SYNS_FriendlyAttrComment,	"Comment"
+	SynEditStrConst_SYNS_FriendlyAttrEvent,	"Event"
+	SynEditStrConst_SYNS_FriendlyAttrIdentifier,	"Identifier"
+	SynEditStrConst_SYNS_FriendlyAttrNonReservedKeyword,	"Non-reserved Keyword"
+	SynEditStrConst_SYNS_FriendlyAttrNumber,	"Number"
+	SynEditStrConst_SYNS_FriendlyAttrReservedWord,	"Reserved Word"
+	SynEditStrConst_SYNS_FriendlyAttrSpace,	"Space"
+	SynEditStrConst_SYNS_FriendlyAttrString,	"String"
+	SynEditStrConst_SYNS_FriendlyAttrSymbol,	"Symbol"
+	SynEditStrConst_SYNS_ScrollInfoFmt,	"%d - %d"
+	SynEditStrConst_SYNS_ScrollInfoFmtTop,	"Top Line: %d"
+	SynEditStrConst_SYNS_EDuplicateShortcut,	"Shortcut already exists"
+	SsConst_ssscDisplayPreposition,	" on "
+	SsConst_ssscDefaultFolderName,	"New Folder"
+	SsConst_ssscViewCaptionLargeIcon,	"Lar&ge Icons"
+	SsConst_ssscViewCaptionSmallIcon,	"S&mall Icons"
+	SsConst_ssscViewCaptionList,	"&List"
+	SsConst_ssscViewCaptionDetails,	"&Details"
+	SsConst_ssscItemDisplayFile,	" file"
+	SsConst_ssscItemDisplayFiles,	" files"
+	SsConst_ssscItemDisplayFolder,	" folder"
+	SsConst_ssscItemDisplayFolders,	" folders"
+	SsConst_ssscItemDispalyObjects,	" objects"
+	SsConst_ssscNavLookInCaption,	"Look &in:"
+	SsConst_ssscNavHintMoveUp,	"Up One Level"
+	SsConst_ssscNavHintNewFolder,	"Create New Folder"
+	SsConst_ssscNavHintLastFolder,	"Go To Last Folder Visited"
+	SsConst_ssscNavHintViewMenu,	"View Menu"
+	SsConst_ssscExpandingClassS,	"Problem in expanding character class"
+	SsConst_ssscAlternationFollowsClosureS,	"Alternation cannot immediately follow a closure marker"
+	SsConst_ssscUnbalancedParensS,	"Unbalanced nesting parentheses"
+	SsConst_ssscFollowingClosureS,	"Closure cannot immediately follow BegOfLine, EndOfLine or another closure"
+	SsConst_ssscPatternErrorS,	"Error detected near end of pattern"
+	SsConst_ssscUnbalancedTagS,	"Unbalanced tag marker"
+	SsConst_ssscNoPatternsS,	"No Match, Replace, or SelAvoid Patterns defined"
+	SsConst_ssscPatternTooLargeS,	"Pattern exceeds MaxPatLen"
+	SsConst_ssscStreamsNilS,	"Input and/or output stream is not assigned"
+	SsConst_ssscInTextStreamErrorS,	"Error creating internal input text stream"
+	SsConst_ssscOutTextStreamErrorS,	"Error creating internal output text stream"
+	SsConst_ssscClosureMaybeEmptyS,	"A * or + operand could be empty"
+	SsConst_ssscOutFileDeleteS,	"Error deleting old previous file"
+	SsConst_ssscInFileNotFoundS,	"Input file not found"
+	SsConst_ssscREInFileErrorS,	"Error creating internal text stream"
+	SsConst_ssscOutFileCreateS,	"Error creating output file"
+	SsConst_ssscInvalidFolderS,	"Invalid folder"
+	SsConst_ssscFolderReadOnlyS,	"Cannot create folder: Parent folder is read-only"
+	SsConst_ssscInvalidSortDirS,	"Invalid sort direction"
+	SsConst_ssscCreateFileFailedS,	"CreateFile failed"
+	SsConst_ssscFileMappingFailedS,	"CreateFileMapping failed"
+	SsConst_ssscCreateViewFailedS,	"MapViewOfFile failed"
+	SsConst_ssscBadOriginS,	"Bad origin parameter for call to Seek"
+	SsConst_ssscGetSizeFailedS,	"Error reading size of existing file"
+	SsConst_ssscNilStreamS,	"Buffered/text stream: Attempted to read, write, or seek and underlying stream is nil"
+	SsConst_ssscNoSeekForReadS,	"Buffered/text stream: Could not seek to the correct position in the underlying stream (for read request)"
+	SsConst_ssscNoSeekForWriteS,	"Buffered/text stream: Could not seek to the correct position in the underlying stream (for write request)"
+	SsConst_ssscCannotWriteS,	"Buffered/text stream: Could not write the entire buffer to the underlying stream"
+	SsConst_ssscBadTerminatorS,	"Text stream: Case statement was used with a bad value of LineTerminator"
+	SsConst_ssscBadLineLengthS,	"Text stream: Length of a fixed line must be between 1 and 4096 bytes"
+	SsConst_ssscCannotSetSizeS,	"Buffered/text stream: Cannot set the size of the underlying stream (needs OnSetStreamSize event)"
+	SsConst_ssscUnknownErrorS,	"Unknown error creating a pattern token"
+	SsConst_ssscInvalidTargetFileS,	"Cannot create shortcut. Target file does not exist"
+	SsConst_ssscShellFileOpDeleteS,	"Cannot use file mappings in a delete operation"
+	SsConst_ssscShellFileNotFoundS,	"Source file error, file not found"
+	SsConst_ssscTrayIconDuplicateS,	"Cannot have more than one StTrayIcon per application"
+	SsConst_ssscBadVerInfoKeyS,	"The specified key cannnot be found in version info"
+	SsConst_ssscImageListInvalidS,	"ImageList is not assigned"
+	SsConst_ssscNameS,	"Name"
+	SsConst_ssscSizeS,	"Size"
+	SsConst_ssscTypeS,	"Type"
+	SsConst_ssscModifiedS,	"Modified"
+	SsConst_ssscAttributesS,	"Attributes"
+	SsConst_ssscFileFolderS,	"File Folder"
+	SsConst_ssscSystemFolderS,	"System Folder"
+	SsConst_ssscOriginalLocS,	"Original Location"
+	SsConst_ssscDateDeletedS,	"Date Deleted"
+	SsConst_ssscFileS,	"File"
+	SsConst_ssscShellFileOpMapErrorS,	"File mapping incomplete"
+	SsConst_ssscShellFormatErrorS,	"Format failed"
+	SsConst_ssscShellFormatCancelS,	"Format cancelled"
+	SsConst_ssscShellFormatNoFormatS,	"Drive cannot be formatted"
+	SsConst_ssscShellFormatBadDriveS,	"Invalid drive. Drive is not removable"
+	SsConst_ssscTrayIconInvalidOSS,	"Operating system does not support tray icons"
+	SsConst_ssscTrayIconCantAddS,	"Error adding tray icon"
+	SsConst_ssscTrayIconCantDeleteS,	"Error removing tray icon"
+	SsConst_ssscTrayIconErrorS,	"Tray icon error"
+	SsConst_ssscBadDropTargetS,	"Drop target must be a TWinControl descendant"
+	SsConst_ssscCOMInitFailedS,	"Cannot initialize COM"
+	SsConst_ssscNoPathSpecifiedS,	"Destination directory not specified"
+	SsConst_ssscIShellLinkErrorS,	"Error creating IShellLink"
+	SsConst_ssscNotShortcutS,	"File is not a shortcut"
+	SsConst_ssscTrayIconCloseS,	"&Close"
+	SsConst_ssscTrayIconRestoreS,	"&Restore"
+	SsConst_ssscUnknownNodeClassS,	"Node class name %s read from stream is unregistered"
+	SsConst_ssscNoStoreDataS,	"Container's StoreData property is unassigned"
+	SsConst_ssscNoLoadDataS,	"Container's LoadData property is unassigned"
+	SsConst_ssscWrongClassS,	"Class name on stream differs from object's class"
+	SsConst_ssscWrongNodeClassS,	"Node class name on stream differs from object's node class"
+	SsConst_ssscBadCompareS,	"Unable to assign this compare function now"
+	SsConst_ssscTooManyColsS,	"Cannot assign a matrix with more than 1 column to an array"
+	SsConst_ssscBadColCountS,	"Can only assign a matrix to a virtual matrix if column counts are equal"
+	SsConst_ssscBadElSizeS,	"Can only assign a matrix to a virtual matrix if element sizes are equal"
+	SsConst_ssscBadDupsS,	"Can only set Duplicates to False in an empty sorted collection"
+	SsConst_ssscFileOpenS,	"Error opening file"
+	SsConst_ssscNoVerInfoS,	"File does not contain version info"
+	SsConst_ssscVerInfoFailS,	"Unable to read version info"
+	SsConst_ssscShellVersionErrorS,	"Operation not supported in this version of the shell"
+	SsConst_ssscShellFileOpSrcErrorS,	"No source files specified"
+	SsConst_ssscShellFileOpDstErrorS,	"No destination files specified"
+	AbResString_AbLtStartS,	" logging "
+	AbResString_AbGzipInvalidS,	"Invalid Gzip"
+	AbResString_AbGzipBadCRCS,	"Bad CRC"
+	AbResString_AbGzipBadFileSizeS,	"Bad File Size"
+	AbResString_AbTarInvalidS,	"Invalid Tar"
+	AbResString_AbTarBadFileNameS,	"File name too long"
+	AbResString_AbTarBadLinkNameS,	"Symbolic link path too long"
+	AbResString_AbTarBadOpS,	"Unsupported Operation"
+	AbResString_AbUnhandledEntityS,	"Unhandled Entity"
+	SsConst_ssscNoCompareS,	"Compare property must be set"
+	SsConst_ssscBadTypeS,	"An incompatible class is passed to a method"
+	SsConst_ssscBadSizeS,	"Bad size parameter"
+	SsConst_ssscDupNodeS,	"Attempt to add duplicate node to TStTree"
+	SsConst_ssscBadIndexS,	"Index is out of range"
+	SsConst_ssscBadWinModeS,	"Requires enhanced mode operation for Windows 3.1x"
+	SsConst_ssscUnknownClassS,	"Container class name %s read from stream is unregistered"
+	AbResString_AbVMSWriteTooManyBytesS,	"VMS: request to write too many bytes [%d]"
+	AbResString_AbBBSReadTooManyBytesS,	"BBS: request to read too many bytes [%d]"
+	AbResString_AbBBSSeekOutsideBufferS,	"BBS: New position is outside the buffer"
+	AbResString_AbBBSInvalidOriginS,	"BBS: Invalid Origin value"
+	AbResString_AbBBSWriteTooManyBytesS,	"BBS: request to write too many bytes [%d]"
+	AbResString_AbSWSNotEndofStreamS,	"TabSlidingWindowStream.Write: Not at end of stream"
+	AbResString_AbSWSSeekFailedS,	"TabSlidingWindowStream.bsWriteChunk: seek failed"
+	AbResString_AbSWSWriteFailedS,	"TabSlidingWindowStream.bsWriteChunk: write failed"
+	AbResString_AbSWSInvalidOriginS,	"TabSlidingWindowStream.Seek: invalid origin"
+	AbResString_AbSWSInvalidNewOriginS,	"TabSlidingWindowStream.Seek: invalid new position"
+	AbResString_AbLtAddS,	" added "
+	AbResString_AbLtDeleteS,	" deleted "
+	AbResString_AbLtExtractS,	" extracted "
+	AbResString_AbLtFreshenS,	" freshened "
+	AbResString_AbLtMoveS,	" moved "
+	AbResString_AbLtReplaceS,	" replaced "
+	AbResString_AbFCIFileSeekErrorS,	"FCI file seek error"
+	AbResString_AbFCIFileDeleteErrorS,	"FCI file delete error"
+	AbResString_AbFCIAddFileErrorS,	"FCI cannot add file"
+	AbResString_AbFCICreateErrorS,	"FCI cannot create context"
+	AbResString_AbFCIFlushCabinetErrorS,	"FCI cannot flush cabinet"
+	AbResString_AbFCIFlushFolderErrorS,	"FCI cannot flush folder"
+	AbResString_AbFDICopyErrorS,	"FDI cannot enumerate files"
+	AbResString_AbFDICreateErrorS,	"FDI cannot create context"
+	AbResString_AbInvalidCabTemplateS,	"Invalid cab file template"
+	AbResString_AbInvalidCabFileS,	"Invalid file - not a cabinet file"
+	AbResString_AbVMSReadTooManyBytesS,	"VMS: request to read too many bytes [%d]"
+	AbResString_AbVMSInvalidOriginS,	"VMS: invalid origin %d, should be 0, 1, 2"
+	AbResString_AbVMSErrorOpenSwapS,	"VMS: Cannot open swap file %s"
+	AbResString_AbVMSSeekFailS,	"VMS: Failed to seek in swap file %s"
+	AbResString_AbVMSReadFailS,	"VMS: Failed to read %d bytes from swap file %s"
+	AbResString_AbVMSWriteFailS,	"VMS: Failed to write %d bytes to swap file %s"
+	AbResString_AbZipBadCRCS,	"Failed CRC Check"
+	AbResString_AbZipBadStubS,	"Stub must be an executable"
+	AbResString_AbFileNotFoundS,	"File not found"
+	AbResString_AbInvalidLFHS,	"Invalid Local File Header entry"
+	AbResString_AbNoArchiveS,	"Archive does not exist - Filename is blank"
+	AbResString_AbReadErrorS,	"Error reading archive"
+	AbResString_AbInvalidIndexS,	"Invalid archive item index"
+	AbResString_AbInvalidThresholdS,	"Invalid archive size threshold"
+	AbResString_AbUnhandledFileTypeS,	"Unhandled Archive Type"
+	AbResString_AbSpanningNotSupportedS,	"Spanning not supported by this Archive type"
+	AbResString_AbLogCreateErrorS,	"Error creating Log File"
+	AbResString_AbNoCabinetDllErrorS,	"Cannot load cabinet.dll"
+	AbResString_AbFCIFileOpenErrorS,	"FCI cannot open file"
+	AbResString_AbFCIFileReadErrorS,	"FCI cannot read file"
+	AbResString_AbFCIFileWriteErrorS,	"FCI cannot write file"
+	AbResString_AbFCIFileCloseErrorS,	"FCI close file error"
+	AbResString_AbDuplicateNameS,	"Cannot insert file - duplicates stored name"
+	AbResString_AbUnsupportedCompressionMethodS,	"Cannot insert file - unsupported compression method"
+	AbResString_AbUserAbortS,	"Process aborted by user"
+	AbResString_AbArchiveBusyS,	"Archive is busy - cannot process new requests"
+	AbResString_AbLastDiskRequestS,	"Insert the last disk in the spanned disk set"
+	AbResString_AbDiskRequestS,	"Insert floppy"
+	AbResString_AbBadSpanStreamS,	"Spanned archives must be opened as file streams"
+	AbResString_AbDiskNumRequestS,	"Insert disk number %d of the spanned disk set"
+	AbResString_AbNoOverwriteSpanStreamS,	"Cannot update an existing spanned disk set"
+	AbResString_AbNoSpannedSelfExtractS,	"Cannot make a self-extracting spanned disk set"
+	AbResString_AbBlankDiskS,	"Insert a blank floppy disk"
+	AbResString_AbStreamFullS,	"Stream write error"
+	AbResString_AbNoSuchDirectoryS,	"Directory does not exist"
+	AbResString_AbInflateBlockErrorS,	"Cannot inflate block"
+	AbResString_AbBadStreamTypeS,	"Invalid Stream"
+	AbResString_AbTruncateErrorS,	"Error truncating Zip File"
+	pnglang_EInvalidSpec,	"The \"Portable Network Graphics\" could not be created because invalid image type parameters have being provided."
+	VirtualTrees_SWrongMoveError,	"Target node cannot be a child node of the node to be moved."
+	VirtualTrees_SWrongStreamFormat,	"Unable to load tree structure, the format is wrong."
+	VirtualTrees_SWrongStreamVersion,	"Unable to load tree structure, the version is unknown."
+	VirtualTrees_SStreamTooSmall,	"Unable to load tree structure, not enough data available."
+	VirtualTrees_SCorruptStream1,	"Stream data corrupt. A node's anchor chunk is missing."
+	VirtualTrees_SCorruptStream2,	"Stream data corrupt. Unexpected data after node's end position."
+	VirtualTrees_SClipboardFailed,	"Clipboard operation failed."
+	VirtualTrees_SCannotSetUserData,	"Cannot set initial user data because there is not enough user data space allocated."
+	AbResString_AbErrZipInvalidS,	"Invalid file - not a PKZip file"
+	AbResString_AbZipVersionNeededS,	"Cannot extract file - newer version required"
+	AbResString_AbUnknownCompressionMethodS,	"Cannot extract file - unsupported compression method"
+	AbResString_AbNoExtractionMethodS,	"Cannot extract file - no extraction support provided"
+	AbResString_AbInvalidPasswordS,	"Cannot extract file - invalid password"
+	AbResString_AbNoInsertionMethodS,	"Cannot insert file - no insertion support provided"
+	AbResString_AbInvalidFactorS,	"Invalid Reduce Factor"
 	pnglang_EPNGIHDRNotFirstText,	"This \"Portable Network Graphics\" image is not supported or it might be invalid.\r\n(IHDR chunk is not the first)"
 	pnglang_EPNGSizeExceedsText,	"This \"Portable Network Graphics\" image is not supported because either it's width or height exceeds the maximum size, which is 65535 pixels length."
 	pnglang_EPNGUnknownPalEntryText,	"There is no such palette entry."
@@ -834,102 +913,23 @@ BEGIN
 	pnglang_EPNGOutMemoryText,	"Some operation could not be performed because the system is out of resources. Close some windows and try again."
 	pnglang_EPNGCannotChangeTransparentText,	"Setting bit transparency color is not allowed for png images containing alpha value for each pixel (COLOR_RGBALPHA and COLOR_GRAYSCALEALPHA)"
 	pnglang_EPNGHeaderNotPresentText,	"This operation is not valid because the current image contains no valid header."
+	pnglang_EInvalidNewSize,	"The new size provided for image resizing is invalid."
 	ComConst_SNoMethod,	"Method '%s' not supported by automation object"
 	ComConst_SVarNotObject,	"Variant does not reference an automation object"
 	ComConst_STooManyParams,	"Dispatch methods do not support more than 64 parameters"
-	VirtualTrees_SWrongMoveError,	"Target node cannot be a child node of the node to be moved."
-	VirtualTrees_SWrongStreamFormat,	"Unable to load tree structure, the format is wrong."
-	VirtualTrees_SWrongStreamVersion,	"Unable to load tree structure, the version is unknown."
-	VirtualTrees_SStreamTooSmall,	"Unable to load tree structure, not enough data available."
-	VirtualTrees_SCorruptStream1,	"Stream data corrupt. A node's anchor chunk is missing."
-	VirtualTrees_SCorruptStream2,	"Stream data corrupt. Unexpected data after node's end position."
-	VirtualTrees_SClipboardFailed,	"Clipboard operation failed."
-	VirtualTrees_SCannotSetUserData,	"Cannot set initial user data because there is not enough user data space allocated."
+	DropTarget_sTargetAsyncBusy,	"Can't clear data while async data transfer is in progress"
+	DropTarget_sRichEditWarning,	"It is strongly recommended that you set the AutoRegister\rproperty to False when the drop target is a rich edit control.\r\rOtherwise the text of the rich edit control might become\rinvisible when the control is scrolled or modifified"
+	DragDrop_sImplementationRequired,	"Internal error: %s.%s needs implementation"
+	DragDrop_sFormatNameReadOnly,	"%s.ClipboardFormat is read-only"
+	DragDropPIDL_sBadDesktop,	"Failed to get interface to Desktop"
+	DragDropPIDL_sBadFilename,	"Invalid filename: %s"
+	AdbExec_AdbDefaultExe,	"adb.exe"
 	pnglang_EPngInvalidCRCText,	"This \"Portable Network Graphics\" image is not valid because it contains invalid pieces of data (crc error)"
 	pnglang_EPNGInvalidIHDRText,	"The \"Portable Network Graphics\" image could not be loaded because one of its main piece of data (ihdr) might be corrupted"
 	pnglang_EPNGMissingMultipleIDATText,	"This \"Portable Network Graphics\" image is invalid because it has missing image parts."
 	pnglang_EPNGZLIBErrorText,	"Could not decompress the image because it contains invalid compressed data.\r\n Description: "
 	pnglang_EPNGInvalidPaletteText,	"The \"Portable Network Graphics\" image contains an invalid palette."
-	AbResString_AbLtAddS,	" added "
-	AbResString_AbLtDeleteS,	" deleted "
-	AbResString_AbLtExtractS,	" extracted "
-	AbResString_AbLtFreshenS,	" freshened "
-	AbResString_AbLtMoveS,	" moved "
-	AbResString_AbLtReplaceS,	" replaced "
-	AbResString_AbLtStartS,	" logging "
-	AbResString_AbGzipInvalidS,	"Invalid Gzip"
-	AbResString_AbGzipBadCRCS,	"Bad CRC"
-	AbResString_AbGzipBadFileSizeS,	"Bad File Size"
-	AbResString_AbTarInvalidS,	"Invalid Tar"
-	AbResString_AbTarBadFileNameS,	"File name too long"
-	AbResString_AbTarBadLinkNameS,	"Symbolic link path too long"
-	AbResString_AbTarBadOpS,	"Unsupported Operation"
-	AbResString_AbUnhandledEntityS,	"Unhandled Entity"
-	ComConst_SOleError,	"OLE error %.8x"
-	AbResString_AbVMSReadTooManyBytesS,	"VMS: request to read too many bytes [%d]"
-	AbResString_AbVMSInvalidOriginS,	"VMS: invalid origin %d, should be 0, 1, 2"
-	AbResString_AbVMSErrorOpenSwapS,	"VMS: Cannot open swap file %s"
-	AbResString_AbVMSSeekFailS,	"VMS: Failed to seek in swap file %s"
-	AbResString_AbVMSReadFailS,	"VMS: Failed to read %d bytes from swap file %s"
-	AbResString_AbVMSWriteFailS,	"VMS: Failed to write %d bytes to swap file %s"
-	AbResString_AbVMSWriteTooManyBytesS,	"VMS: request to write too many bytes [%d]"
-	AbResString_AbBBSReadTooManyBytesS,	"BBS: request to read too many bytes [%d]"
-	AbResString_AbBBSSeekOutsideBufferS,	"BBS: New position is outside the buffer"
-	AbResString_AbBBSInvalidOriginS,	"BBS: Invalid Origin value"
-	AbResString_AbBBSWriteTooManyBytesS,	"BBS: request to write too many bytes [%d]"
-	AbResString_AbSWSNotEndofStreamS,	"TabSlidingWindowStream.Write: Not at end of stream"
-	AbResString_AbSWSSeekFailedS,	"TabSlidingWindowStream.bsWriteChunk: seek failed"
-	AbResString_AbSWSWriteFailedS,	"TabSlidingWindowStream.bsWriteChunk: write failed"
-	AbResString_AbSWSInvalidOriginS,	"TabSlidingWindowStream.Seek: invalid origin"
-	AbResString_AbSWSInvalidNewOriginS,	"TabSlidingWindowStream.Seek: invalid new position"
-	AbResString_AbLogCreateErrorS,	"Error creating Log File"
-	AbResString_AbNoCabinetDllErrorS,	"Cannot load cabinet.dll"
-	AbResString_AbFCIFileOpenErrorS,	"FCI cannot open file"
-	AbResString_AbFCIFileReadErrorS,	"FCI cannot read file"
-	AbResString_AbFCIFileWriteErrorS,	"FCI cannot write file"
-	AbResString_AbFCIFileCloseErrorS,	"FCI close file error"
-	AbResString_AbFCIFileSeekErrorS,	"FCI file seek error"
-	AbResString_AbFCIFileDeleteErrorS,	"FCI file delete error"
-	AbResString_AbFCIAddFileErrorS,	"FCI cannot add file"
-	AbResString_AbFCICreateErrorS,	"FCI cannot create context"
-	AbResString_AbFCIFlushCabinetErrorS,	"FCI cannot flush cabinet"
-	AbResString_AbFCIFlushFolderErrorS,	"FCI cannot flush folder"
-	AbResString_AbFDICopyErrorS,	"FDI cannot enumerate files"
-	AbResString_AbFDICreateErrorS,	"FDI cannot create context"
-	AbResString_AbInvalidCabTemplateS,	"Invalid cab file template"
-	AbResString_AbInvalidCabFileS,	"Invalid file - not a cabinet file"
-	AbResString_AbBlankDiskS,	"Insert a blank floppy disk"
-	AbResString_AbStreamFullS,	"Stream write error"
-	AbResString_AbNoSuchDirectoryS,	"Directory does not exist"
-	AbResString_AbInflateBlockErrorS,	"Cannot inflate block"
-	AbResString_AbBadStreamTypeS,	"Invalid Stream"
-	AbResString_AbTruncateErrorS,	"Error truncating Zip File"
-	AbResString_AbZipBadCRCS,	"Failed CRC Check"
-	AbResString_AbZipBadStubS,	"Stub must be an executable"
-	AbResString_AbFileNotFoundS,	"File not found"
-	AbResString_AbInvalidLFHS,	"Invalid Local File Header entry"
-	AbResString_AbNoArchiveS,	"Archive does not exist - Filename is blank"
-	AbResString_AbReadErrorS,	"Error reading archive"
-	AbResString_AbInvalidIndexS,	"Invalid archive item index"
-	AbResString_AbInvalidThresholdS,	"Invalid archive size threshold"
-	AbResString_AbUnhandledFileTypeS,	"Unhandled Archive Type"
-	AbResString_AbSpanningNotSupportedS,	"Spanning not supported by this Archive type"
-	AbResString_AbZipVersionNeededS,	"Cannot extract file - newer version required"
-	AbResString_AbUnknownCompressionMethodS,	"Cannot extract file - unsupported compression method"
-	AbResString_AbNoExtractionMethodS,	"Cannot extract file - no extraction support provided"
-	AbResString_AbInvalidPasswordS,	"Cannot extract file - invalid password"
-	AbResString_AbNoInsertionMethodS,	"Cannot insert file - no insertion support provided"
-	AbResString_AbInvalidFactorS,	"Invalid Reduce Factor"
-	AbResString_AbDuplicateNameS,	"Cannot insert file - duplicates stored name"
-	AbResString_AbUnsupportedCompressionMethodS,	"Cannot insert file - unsupported compression method"
-	AbResString_AbUserAbortS,	"Process aborted by user"
-	AbResString_AbArchiveBusyS,	"Archive is busy - cannot process new requests"
-	AbResString_AbLastDiskRequestS,	"Insert the last disk in the spanned disk set"
-	AbResString_AbDiskRequestS,	"Insert floppy"
-	AbResString_AbBadSpanStreamS,	"Spanned archives must be opened as file streams"
-	AbResString_AbDiskNumRequestS,	"Insert disk number %d of the spanned disk set"
-	AbResString_AbNoOverwriteSpanStreamS,	"Cannot update an existing spanned disk set"
-	AbResString_AbNoSpannedSelfExtractS,	"Cannot make a self-extracting spanned disk set"
+	pnglang_EPNGInvalidFileHeaderText,	"The file being read is not a valid \"Portable Network Graphics\" image because it contains an invalid header. This file may be corrupted, try obtaining it again"
 	ComStrs_sTabFailRetrieve,	"Failed to retrieve tab at index %d"
 	ComStrs_sTabFailGetObject,	"Failed to get object at index %d"
 	ComStrs_sTabFailSet,	"Failed to set tab \"%s\" at index %d"
@@ -945,7 +945,7 @@ BEGIN
 	ComStrs_sRichEditSaveFail,	"Failed to Save Stream"
 	ComStrs_sPageIndexError,	"%d is an invalid PageIndex value.  PageIndex must be between 0 and %d"
 	ComStrs_sInvalidComCtl32,	"This control requires version 4.70 or greater of COMCTL32.DLL"
-	AbResString_AbErrZipInvalidS,	"Invalid file - not a PKZip file"
+	ComConst_SOleError,	"OLE error %.8x"
 	Consts_SListBoxMustBeVirtual,	"Listbox (%s) style must be virtual in order to set Count"
 	Consts_SNoGetItemEventHandler,	"No OnGetItem event handler assigned"
 	Consts_SANSIEncoding,	"ANSI"
@@ -1254,40 +1254,40 @@ END
 
 /* c:\program files (x86)\embarcadero\rad studio\7.0\lib\Character.res */
 /* c:\program files (x86)\embarcadero\rad studio\7.0\lib\controls.res */
-/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\buttons.res */
 /* D:\components\VirtualTreeView\Source\VirtualTrees.res */
-/* D:\projects\LineTS\StudioSrc\uFindProp.dfm */
-/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\extdlgs.res */
-/* D:\projects\LineTS\StudioSrc\uFinfo.dfm */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\buttons.res */
 /* c:\program files (x86)\embarcadero\rad studio\7.0\lib\filectrl.res */
 /* D:\components\ShellShock\source\ssnav.res */
-/* D:\projects\LineTS\StudioSrc\uPicOpenDlg.dfm */
-/* D:\projects\LineTS\StudioSrc\uPicView.dfm */
-/* D:\projects\LineTS\StudioSrc\../icons/PrevGlyph.RES */
-/* D:\projects\LineTS\StudioSrc\uProp.dfm */
-/* D:\projects\LineTS\StudioSrc\../icons/PropGlyph.RES */
-/* D:\projects\LineTS\StudioSrc\uResc.dfm */
-/* D:\projects\LineTS\StudioSrc\../icons/RescGlyph.RES */
-/* D:\components\SynEdit\Source\SynEdit.res */
-/* D:\projects\LineTS\StudioSrc\SynEditDlg\dlgSearchText.dfm */
-/* D:\projects\LineTS\StudioSrc\SynEditDlg\dlgReplaceText.dfm */
-/* D:\projects\LineTS\StudioSrc\SynEditDlg\dlgConfirmReplace.dfm */
-/* D:\projects\LineTS\StudioSrc\uEdit.dfm */
-/* D:\projects\LineTS\StudioSrc\../icons/TxdtGlyph.RES */
-/* D:\projects\LineTS\StudioSrc\uAbout.dfm */
-/* D:\projects\LineTS\StudioSrc\uAdbPush.dfm */
+/* uThemeOpenDlg.dfm */
+/* uMedsos.dfm */
+/* uManedit.dfm */
+/* uEditApp.dfm */
+/* uCfg.dfm */
+/* uWelcome.dfm */
+/* ../icons/Intro.RES */
 /* c:\program files (x86)\embarcadero\rad studio\7.0\lib\spin.res */
-/* D:\projects\LineTS\StudioSrc\uConn.dfm */
-/* D:\projects\LineTS\StudioSrc\uSendOpt.dfm */
-/* D:\projects\LineTS\StudioSrc\uWelcome.dfm */
-/* D:\projects\LineTS\StudioSrc\../icons/Intro.RES */
-/* D:\projects\LineTS\StudioSrc\uEditApp.dfm */
-/* D:\projects\LineTS\StudioSrc\uCfg.dfm */
-/* D:\projects\LineTS\StudioSrc\uManedit.dfm */
-/* D:\projects\LineTS\StudioSrc\uMedsos.dfm */
-/* D:\projects\LineTS\StudioSrc\uThemeOpenDlg.dfm */
-/* D:\projects\LineTS\StudioSrc\uMain.dfm */
-/* D:\projects\LineTS\StudioSrc\../icons/SdbrGlyph.RES */
+/* uConn.dfm */
+/* uSendOpt.dfm */
+/* uAdbPush.dfm */
+/* uAbout.dfm */
+/* D:\components\SynEdit\Source\SynEdit.res */
+/* SynEditDlg\dlgConfirmReplace.dfm */
+/* SynEditDlg\dlgSearchText.dfm */
+/* SynEditDlg\dlgReplaceText.dfm */
+/* uEdit.dfm */
+/* ../icons/TxdtGlyph.RES */
+/* c:\program files (x86)\embarcadero\rad studio\7.0\lib\extdlgs.res */
+/* D:\projects\LineTS\StudioSrc\uPicOpenDlg.dfm */
+/* uFinfo.dfm */
+/* uPicView.dfm */
+/* ../icons/PrevGlyph.RES */
+/* uResc.dfm */
+/* ../icons/RescGlyph.RES */
+/* uFindProp.dfm */
+/* uProp.dfm */
+/* ../icons/PropGlyph.RES */
+/* uMain.dfm */
+/* ../icons/SdbrGlyph.RES */
 /* D:\projects\LineTS\StudioSrc\LineTS.res */
 /* D:\projects\LineTS\StudioSrc\../icons/MainLogo.RES */
 /* D:\projects\LineTS\StudioSrc\../icons/EmbedSkin.RES */

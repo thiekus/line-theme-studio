@@ -45,8 +45,8 @@
 			<DCC_Define>RELEASE;madExcept;$(DCC_Define)</DCC_Define>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2)'!=''">
-			<VerInfo_Build>533</VerInfo_Build>
-			<VerInfo_Keys>LastCompiledTime=2016/06/26 03:38:37;FileVersion=0.0.0.533</VerInfo_Keys>
+			<VerInfo_Build>538</VerInfo_Build>
+			<VerInfo_Keys>LastCompiledTime=2016/06/26 05:07:52;FileVersion=0.0.0.538</VerInfo_Keys>
 			<DCC_Description>SodaPoppers Debug Build</DCC_Description>
 			<DCC_MapFile>3</DCC_MapFile>
 			<ILINK_MapFileType>DetailedSegments</ILINK_MapFileType>
@@ -78,7 +78,7 @@
 						<VersionInfo Name="MajorVer">1</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">534</VersionInfo>
+						<VersionInfo Name="Build">538</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">True</VersionInfo>
@@ -90,7 +90,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName">Khayalan Software</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription">Line Theme Studio</VersionInfoKeys>
-						<VersionInfoKeys Name="FileVersion">1.2.0.534</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">1.2.0.538</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">LineTS.dpr</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalCopyright">Copyright © Khayalan Software 2016</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks">LINE is trademark of Line Corporation.</VersionInfoKeys>
@@ -98,7 +98,7 @@
 						<VersionInfoKeys Name="ProductName">Line Theme Studio</VersionInfoKeys>
 						<VersionInfoKeys Name="ProductVersion">1.2</VersionInfoKeys>
 						<VersionInfoKeys Name="Comments">Coded by Faris Khowarizmi</VersionInfoKeys>
-						<VersionInfoKeys Name="LastCompiledTime">2016/06/26 03:38:37</VersionInfoKeys>
+						<VersionInfoKeys Name="LastCompiledTime">2016/06/26 05:07:52</VersionInfoKeys>
 						<VersionInfoKeys Name="SpecialBuild">SodaPoppers</VersionInfoKeys>
 					</VersionInfoKeys>
 					<Source>

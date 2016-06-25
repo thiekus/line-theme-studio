@@ -100,7 +100,7 @@ var
 begin
 
   dlOpen.DoubleBuffered:= True;
-  dlOpen.ListView.ViewStyle:= vsReport;
+  //dlOpen.ListView.ViewStyle:= vsReport;
   with TIniFile.Create(ChangeFileExt(ParamStr(0), '.ini')) do
   try
     LastPath:= ReadString('LastPath', 'PictureOpenDialog', '');
