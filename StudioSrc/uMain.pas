@@ -1262,23 +1262,23 @@ begin
     idx:= 1;
 
     case Page of
-      spInfo: begin
+      {spInfo: begin
                 SetFormAsPage(fmManed);
                 sidx:= 0;
-              end;
+              end;}
       spProp: begin
                 SetFormAsPage(fmProp);
                 if not PropInit then
                   fmProp.ParseThemeObject(ThemeProp);
                 PropInit:= TRUE;
-                sidx:= 1;
+                sidx:= 0;
               end;
       spEdit: begin
                 SetFormAsPage(fmEdit);
                 if not EditInit then
                   fmEdit.EditorLoad(ThemeProp);
                 EditInit:= TRUE;
-                sidx:= 2;
+                sidx:= 1;
               end;
       spResc: begin
                 SetFormAsPage(fmResc);
@@ -1287,7 +1287,7 @@ begin
                 else
                   fmResc.MakeThumbnails;
                 RescInit:= TRUE;
-                sidx:= 3;
+                sidx:= 2;
               end;
     else
       idx:= -1;

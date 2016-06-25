@@ -108,7 +108,6 @@ object frmMain: TfrmMain
         item
           Caption = 'Theme Properties'
           Items.Strings = (
-            'Theme Information'
             'TreeView Editor'
             'Text Editor'
             'Resource Browser')
