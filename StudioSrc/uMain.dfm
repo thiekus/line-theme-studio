@@ -150,8 +150,8 @@ object frmMain: TfrmMain
       Height = 543
       Align = alClient
       OnPaint = pbMainPaint
-      ExplicitLeft = 316
-      ExplicitTop = -111
+      ExplicitLeft = 5
+      ExplicitTop = -4
     end
     object prgs: TProgressBar
       Tag = 777
@@ -803,9 +803,5 @@ object frmMain: TfrmMain
     OptimizedMove = True
     Left = 304
     Top = 80
-  end
-  object MadExceptHnd: TMadExceptionHandler
-    Left = 304
-    Top = 128
   end
 end

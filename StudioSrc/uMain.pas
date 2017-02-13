@@ -83,7 +83,6 @@ type
     KhayalanSoftwareWebsite1: TMenuItem;
     actMan: TAction;
     hemeInformation1: TMenuItem;
-    MadExceptHnd: TMadExceptionHandler;
     procedure FormCreate(Sender: TObject);
     procedure actExitExecute(Sender: TObject);
     procedure actOpenExecute(Sender: TObject);

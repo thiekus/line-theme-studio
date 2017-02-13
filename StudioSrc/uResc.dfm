@@ -161,6 +161,7 @@ object fmResc: TfmResc
       OnDblClick = lvRescDblClick
       OnKeyPress = lvRescKeyPress
       OnSelectItem = lvRescSelectItem
+      ExplicitTop = 4
     end
   end
   object pnlDesc: TPanel
@@ -316,11 +317,15 @@ object fmResc: TfmResc
       Caption = '&Add Resource'
       Hint = 'Add resource'
       ImageIndex = 4
+      Visible = False
+      OnExecute = actAddRescExecute
     end
     object actDelResc: TAction
       Caption = '&Delete resource'
       Hint = 'Delete resource'
       ImageIndex = 5
+      Visible = False
+      OnExecute = actDelRescExecute
     end
     object actInfo: TAction
       Caption = 'File &information'
@@ -400,5 +405,10 @@ object fmResc: TfmResc
     OnTimer = tmrThDelayTimer
     Left = 200
     Top = 168
+  end
+  object dropToFile: TDropFileSource
+    DragTypes = [dtCopy]
+    Left = 168
+    Top = 224
   end
 end

@@ -15,7 +15,8 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms, 
   Dialogs, ComCtrls, StdCtrls, ExtCtrls, TB97Ctls, TB97, TB97Tlbr, ImgList,
-  PngImage, CustomUtils, ActnList, Menus, LtsType, ExtDlgs, ResGraphic;
+  PngImage, CustomUtils, ActnList, Menus, LtsType, ExtDlgs, ResGraphic,
+  DragDrop, DropSource, DragDropFile;
 
 type
   TThumbThrData = record
@@ -85,6 +86,7 @@ type
     N4: TMenuItem;
     UpDirectory1: TMenuItem;
     tmrThDelay: TTimer;
+    dropToFile: TDropFileSource;
     procedure pnlDataResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -104,6 +106,8 @@ type
     procedure actInfoExecute(Sender: TObject);
     procedure actExprExecute(Sender: TObject);
     procedure tmrThDelayTimer(Sender: TObject);
+    procedure actDelRescExecute(Sender: TObject);
+    procedure actAddRescExecute(Sender: TObject);
   private
     { Private declarations }
 
@@ -125,6 +129,7 @@ type
     IndexLst: array of TFileResc;
     IndexCnt: integer;
 
+    procedure AddResource(FilePath: string);
     procedure MakeThumbnails;
     procedure RebuildThumbnails;
     procedure RefreshResource(Dir: string); overload;
@@ -454,6 +459,20 @@ begin
 
 end;
 
+procedure TfmResc.actAddRescExecute(Sender: TObject);
+begin
+
+  //
+
+end;
+
+procedure TfmResc.actDelRescExecute(Sender: TObject);
+begin
+
+  //
+
+end;
+
 procedure TfmResc.actExprExecute(Sender: TObject);
 var
   fs: TFileStream;
@@ -486,7 +505,8 @@ procedure TfmResc.actPrevExecute(Sender: TObject);
 begin
 
   if LastIdx >= 0 then
-    ShowImagePreview(frmMain.SearchStreamIndex(IndexLst[LastIdx].Path));
+    if ShowImagePreview(frmMain.SearchStreamIndex(IndexLst[LastIdx].Path)) then
+      frmMain.SetChanged();
 
 end;
 
@@ -549,6 +569,20 @@ procedure TfmResc.actUpExecute(Sender: TObject);
 begin
 
   ParentDir;
+
+end;
+
+procedure TfmResc.AddResource(FilePath: string);
+
+begin
+
+  if FileExists(FilePath) then
+    begin
+
+  end
+  else
+    MessageDlg(PChar(Format('Tidak bisa menambahkan file %s karena tidak valid!',
+      [])),  mtError, [mbOK], 0);
 
 end;
 

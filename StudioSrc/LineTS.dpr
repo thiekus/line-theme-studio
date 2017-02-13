@@ -1,3 +1,5 @@
+// JCL_DEBUG_EXPERT_GENERATEJDBG ON
+// JCL_DEBUG_EXPERT_INSERTJDBG ON
 program LineTS;
 
 (*============================================================================*)
@@ -12,11 +14,6 @@ program LineTS;
 
 uses
   FastMM4,
-  madExcept,
-  madLinkDisAsm,
-  madListHardware,
-  madListProcesses,
-  madListModules,
   Forms,
   uMain in 'uMain.pas' {frmMain},
   uResc in 'uResc.pas' {fmResc},
@@ -43,7 +40,8 @@ uses
   uManedit in 'uManedit.pas' {fmManed},
   uMedsos in 'uMedsos.pas' {frmMedsos},
   uThemeOpenDlg in 'uThemeOpenDlg.pas' {dlgOpenTheme},
-  uPicOpenDlg in 'uPicOpenDlg.pas' {dlgOpenPict};
+  uPicOpenDlg in 'uPicOpenDlg.pas' {dlgOpenPict},
+  ExceptDlg in 'ExceptDlg.pas' {ExceptionDialog};
 
 {$R *.res}
 {$R '../icons/MainLogo.RES'}

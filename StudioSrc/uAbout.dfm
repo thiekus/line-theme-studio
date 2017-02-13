@@ -97,7 +97,6 @@ object frmAbout: TfrmAbout
       Height = 25
       Caption = 'Exception test'
       TabOrder = 1
-      Visible = False
       OnClick = btnTstClick
     end
   end

@@ -142,7 +142,7 @@ begin
         end
         else
           nlvl:= 1;
-        (**)
+        (* Tutup properti jika properti telah habis *)
         jsondt.Add(sbuf);
         while lvl > nlvl do
           begin

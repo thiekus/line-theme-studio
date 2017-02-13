@@ -69,11 +69,13 @@ type
   public
     { Public declarations }
 
+    PictureChanged: Boolean;
+
     procedure LoadPreview(const FileIndex: integer);
 
   end;
 
-  procedure ShowImagePreview(const FileIndex: integer);
+  function ShowImagePreview(const FileIndex: integer): Boolean;
 
 var
   frmPrev: TfrmPrev;
@@ -87,7 +89,7 @@ const PrevTlbGlyphCount = 6;
 {$R *.dfm}
 {$R '../icons/PrevGlyph.RES'}
 
-procedure ShowImagePreview(const FileIndex: integer);
+function ShowImagePreview(const FileIndex: integer): Boolean;
 var
   frm: TfrmPrev;
 begin
@@ -96,6 +98,7 @@ begin
   try
     frm.LoadPreview(FileIndex);
     frm.ShowModal;
+    Result:= frm.PictureChanged;
   finally
     frm.Free;
   end;
@@ -115,6 +118,7 @@ var
   tlbg: TBitmap;
 begin
 
+  PictureChanged:= False;
   imgPrv.Clear;
   for zfra:= 0 to PrevTlbGlyphCount - 1 do
     AddPngGlyph(imgPrv, Format('ITLB_%.2d', [zfra]));
@@ -182,6 +186,7 @@ begin
       finally
         Fs.Free;
       end;
+      PictureChanged:= True;
       LoadPreview(RefFileIndex);
     end;
 
@@ -222,7 +227,10 @@ begin
     if dl.ShowModal = mrOk then
       with frmMain.RescFiles[RefFileIndex] do
         if ImportPicture(TStream(Data), dl.dlOpen.FileName) then
+          begin
+          PictureChanged:= True;
           LoadPreview(RefFileIndex);
+        end;
   finally
     dl.Free;
   end;

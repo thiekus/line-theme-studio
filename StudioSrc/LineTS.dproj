@@ -25,7 +25,7 @@
 		<PropertyGroup Condition="'$(Base)'!=''">
 			<BRCC_IncludePath>..\SynGdiPlus;$(BRCC_IncludePath)</BRCC_IncludePath>
 			<DCC_UnitSearchPath>../FastMM;/SynEditDlg;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
-			<DCC_UsePackage>vclx;vcl;vclimg;dbrtl;Rave77VCL;bdertl;rtl;vclactnband;xmlrtl;vcldb;vcldbx;vcltouch;dsnap;dsnapcon;TeeUI;Tee;TeeDB;vclib;ibxpress;adortl;IndyCore;IndySystem;IndyProtocols;inet;intrawebdb_100_140;Intraweb_100_140;VclSmp;vclie;websnap;webdsnap;inetdb;inetdbbde;inetdbxpress;soaprtl;vclribbon;dbexpress;DbxCommonDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;DataSnapServer;DbxClientDriver;DBXInterBaseDriver;DBXMySQLDriver;dbxcds;DBXFirebirdDriver;DBXSybaseASEDriver;DBXSybaseASADriver;DBXOracleDriver;DBXMSSQLDriver;DBXInformixDriver;DBXDb2Driver;JclDeveloperTools;Jcl;JclVcl;JclContainers;JvCore;JvSystem;JvStdCtrls;JvAppFrm;JvBands;JvDB;JvDlgs;JvBDE;JvControls;JvCmp;JvCrypt;JvCustom;JvDocking;JvDotNetCtrls;JvGlobus;JvHMI;JvJans;JvManagedThreads;JvMM;JvNet;JvPageComps;JvPascalInterpreter;JvPluginSystem;JvPrintPreview;JvRuntimeDesign;JvTimeFramework;JvWizards;JvXPCtrls;AbbreviaVCL;DCPdelphi2010;NiceGridD7;NiceSideBarD7;SynEdit_R2010;VirtualTreesR</DCC_UsePackage>
+			<DCC_UsePackage>vcl;rtl</DCC_UsePackage>
 			<DCC_DependencyCheckOutputName>LineTS.exe</DCC_DependencyCheckOutputName>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_1)'!=''">
@@ -45,8 +45,8 @@
 			<DCC_Define>RELEASE;madExcept;$(DCC_Define)</DCC_Define>
 		</PropertyGroup>
 		<PropertyGroup Condition="'$(Cfg_2)'!=''">
-			<VerInfo_Build>538</VerInfo_Build>
-			<VerInfo_Keys>LastCompiledTime=2016/06/26 05:07:52;FileVersion=0.0.0.538</VerInfo_Keys>
+			<VerInfo_Build>580</VerInfo_Build>
+			<VerInfo_Keys>LastCompiledTime=2016/08/06 13:59:12;FileVersion=0.0.0.580</VerInfo_Keys>
 			<DCC_Description>SodaPoppers Debug Build</DCC_Description>
 			<DCC_MapFile>3</DCC_MapFile>
 			<ILINK_MapFileType>DetailedSegments</ILINK_MapFileType>
@@ -60,7 +60,7 @@
 			<DCC_ResourcePath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_ResourcePath)</DCC_ResourcePath>
 			<DCC_ObjPath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_ObjPath)</DCC_ObjPath>
 			<DCC_IncludePath>../ScaleMM2;..FastMM/;../SynGdiPlus;$(DCC_IncludePath)</DCC_IncludePath>
-			<DCC_Define>DEBUG;madExcept;$(DCC_Define)</DCC_Define>
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
 		</PropertyGroup>
 		<ProjectExtensions>
 			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
@@ -78,7 +78,7 @@
 						<VersionInfo Name="MajorVer">1</VersionInfo>
 						<VersionInfo Name="MinorVer">2</VersionInfo>
 						<VersionInfo Name="Release">0</VersionInfo>
-						<VersionInfo Name="Build">538</VersionInfo>
+						<VersionInfo Name="Build">581</VersionInfo>
 						<VersionInfo Name="Debug">False</VersionInfo>
 						<VersionInfo Name="PreRelease">False</VersionInfo>
 						<VersionInfo Name="Special">True</VersionInfo>
@@ -90,7 +90,7 @@
 					<VersionInfoKeys>
 						<VersionInfoKeys Name="CompanyName">Khayalan Software</VersionInfoKeys>
 						<VersionInfoKeys Name="FileDescription">Line Theme Studio</VersionInfoKeys>
-						<VersionInfoKeys Name="FileVersion">1.2.0.538</VersionInfoKeys>
+						<VersionInfoKeys Name="FileVersion">1.2.0.581</VersionInfoKeys>
 						<VersionInfoKeys Name="InternalName">LineTS.dpr</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalCopyright">Copyright © Khayalan Software 2016</VersionInfoKeys>
 						<VersionInfoKeys Name="LegalTrademarks">LINE is trademark of Line Corporation.</VersionInfoKeys>
@@ -98,7 +98,7 @@
 						<VersionInfoKeys Name="ProductName">Line Theme Studio</VersionInfoKeys>
 						<VersionInfoKeys Name="ProductVersion">1.2</VersionInfoKeys>
 						<VersionInfoKeys Name="Comments">Coded by Faris Khowarizmi</VersionInfoKeys>
-						<VersionInfoKeys Name="LastCompiledTime">2016/06/26 05:07:52</VersionInfoKeys>
+						<VersionInfoKeys Name="LastCompiledTime">2016/08/06 13:59:12</VersionInfoKeys>
 						<VersionInfoKeys Name="SpecialBuild">SodaPoppers</VersionInfoKeys>
 					</VersionInfoKeys>
 					<Source>
@@ -173,6 +173,9 @@
 			</DCCReference>
 			<DCCReference Include="uPicOpenDlg.pas">
 				<Form>dlgOpenPict</Form>
+			</DCCReference>
+			<DCCReference Include="ExceptDlg.pas">
+				<Form>ExceptionDialog</Form>
 			</DCCReference>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
